@@ -1,0 +1,34 @@
+.animation-container {
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+  overflow: hidden;
+}
+
+.animation-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+
+  background-color: rgba(255, 0, 0, 0.2);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+
+  transition: width 0.4s ease;
+  z-index: 0;
+}
+
+.animation-container:hover::before {
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
