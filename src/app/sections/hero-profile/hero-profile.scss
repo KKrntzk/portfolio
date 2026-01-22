@@ -1,3 +1,16 @@
 img {
   width: 200px;
+  transform: rotate(8deg);
+  margin-bottom: 45px;
+}
+
+.name-tag {
+  position: absolute;
+  color: black;
+  top: 190px;
+  left: 40px;
+  transform: rotate(8deg);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Kalam';
 }

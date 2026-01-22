@@ -1,0 +1,30 @@
+.switch-btn {
+  width: 35px;
+  height: 7px;
+  background-color: #f87a55;
+  border: solid white 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.slider {
+  position: absolute;
+  top: -5px;
+  left: -1px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: solid white 1px;
+  background-color: #3355ff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.en-span {
+  color: #f87a55;
+}

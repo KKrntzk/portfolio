@@ -1,7 +1,4 @@
 :host {
-  // position: absolute;
-  // top: 0;
-  // left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,4 +22,34 @@
 
 .title {
   width: 60%;
+}
+
+.title2 {
+  width: 70%;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 870px;
+}
+
+.title-2-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container-with-profile {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
