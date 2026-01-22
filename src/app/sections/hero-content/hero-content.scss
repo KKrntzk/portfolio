@@ -1,0 +1,28 @@
+:host {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  width: 60%;
+  display: flex;
+  justify-content: start;
+}
+
+.title {
+  width: 60%;
+}
