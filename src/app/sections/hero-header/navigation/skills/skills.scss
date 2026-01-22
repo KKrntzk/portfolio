@@ -1,3 +1,34 @@
-.content:hover {
+.animation-container {
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+}
+
+.animation-container::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+
+  background-image: url('/img/00_Hand-drawn-lines/00_Header/color-option-1/2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.4s ease-in-out;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.animation-container:hover::before {
+  clip-path: inset(0 0 0 0);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
   cursor: pointer;
 }
