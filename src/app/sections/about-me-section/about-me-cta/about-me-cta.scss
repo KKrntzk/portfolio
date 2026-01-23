@@ -1,0 +1,19 @@
+.content {
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 10px;
+  width: 150px;
+  box-shadow: 3px 3px 0 black;
+  cursor: pointer;
+
+  transition:
+    transform 0.12s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 0 black;
+  background-color: #f87a55;
+}
