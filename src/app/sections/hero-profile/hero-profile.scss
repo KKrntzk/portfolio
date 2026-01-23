@@ -1,16 +1,56 @@
-img {
+.photo {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width: 170px;
+  height: 230px;
+  object-fit: cover;
+  z-index: 1;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.polaroid-wrapper:hover .photo {
+  filter: grayscale(0%);
+}
+.polaroid-wrapper {
+  position: relative;
   width: 200px;
   transform: rotate(8deg);
-  margin-bottom: 45px;
+}
+
+.frame {
+  width: 200px;
+  position: relative;
+  z-index: 2;
+  display: block;
+  pointer-events: none;
 }
 
 .name-tag {
   position: absolute;
   color: black;
-  top: 190px;
+  bottom: 3px;
   left: 40px;
-  transform: rotate(8deg);
+  z-index: 3;
   font-size: 30px;
   font-weight: bold;
   font-family: 'Kalam';
+}
+
+.smiley {
+  font-family: 'Kalam';
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.polaroid-wrapper:hover .smiley {
+  visibility: hidden;
+}
+
+.polaroid-wrapper:hover .smiley::after {
+  content: ':D';
+  visibility: visible;
+  display: inline-block;
+  margin-left: -25px;
 }
