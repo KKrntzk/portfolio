@@ -1,4 +1,18 @@
 .content {
+  display: flex;
+  flex-wrap: nowrap;
+  letter-spacing: 1px;
   font-size: 120px;
-  font-weight: bold;
+  padding-top: 30px;
+}
+
+.content span {
+  display: inline-block;
+  transition: all 0.4s ease;
+  cursor: default;
+}
+
+.content span:hover {
+  color: #f7c518;
+  text-transform: lowercase;
 }

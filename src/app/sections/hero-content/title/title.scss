@@ -2,4 +2,23 @@
   letter-spacing: 1px;
   font-size: 120px;
   padding-top: 30px;
+  width: 555px;
+}
+
+.content span {
+  display: inline-block;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.content span:hover {
+  color: #f7c518;
+}
+
+.content span:nth-child(n + 2):hover {
+  text-transform: uppercase;
+}
+
+.content span:first-child:hover {
+  text-transform: lowercase;
 }
