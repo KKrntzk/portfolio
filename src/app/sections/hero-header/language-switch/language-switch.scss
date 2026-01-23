@@ -28,3 +28,42 @@
 .en-span {
   color: #f87a55;
 }
+
+.language-btn {
+  background: transparent;
+  border: none;
+}
+
+.animation-container {
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+}
+
+.animation-container::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+
+  background-image: url('/img/00_Hand-drawn-lines/00_Header/color-option-1/Toggle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  clip-path: inset(0 0 0 100%);
+  transition: clip-path 0.3s ease-in-out;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.animation-container:hover::before {
+  clip-path: inset(0 0 0 0);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
