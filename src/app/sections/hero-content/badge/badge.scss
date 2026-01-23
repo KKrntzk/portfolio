@@ -1,8 +1,72 @@
 .content {
-  border-color: white;
+  border: 2px solid white;
   background-color: transparent;
   border-radius: 25px;
   padding: 10px;
   width: 150px;
-  border-width: 2px;
+  height: 45px;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(to right, transparent 50%, #3355ff 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition:
+    width 0.5s ease,
+    background-position 0.5s ease;
+
+  position: relative;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content:hover {
+  width: 250px;
+  background-position: right bottom;
+}
+
+.content .button-text {
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+
+.content:hover .button-text {
+  opacity: 0;
+}
+
+.content:hover::after {
+  content: "I'M KELLY KORNETZKI";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  animation: fadeIn 0.5s forwards;
+}
+
+.hand-icon {
+  position: absolute;
+  height: 35px;
+  opacity: 0;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%) rotate(0deg);
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+
+.content:hover .hand-icon {
+  opacity: 1;
+  left: 90%;
+  transform: translateX(0) rotate(360deg);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
