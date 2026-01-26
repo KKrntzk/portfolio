@@ -1,8 +1,9 @@
-<div class="preview-container">
-  <div class="preview-image" [style.backgroundImage]="'url(' + image + ')'"></div>
+<div class="card-wrapper">
+  <div class="preview-container">
+    <div class="preview-image" [style.backgroundImage]="'url(' + image + ')'"></div>
+    <button class="preview-button">Project details</button>
+  </div>
 
-  <button class="preview-button">Project details</button>
+  <h3>{{ title }}</h3>
+  <p>{{ description }}</p>
 </div>
-
-<h3>{{ title }}</h3>
-<p>{{ description }}</p>

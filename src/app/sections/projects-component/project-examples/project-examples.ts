@@ -18,7 +18,7 @@ export class ProjectExamples {
     {
       title: 'Join',
       img: '/img/projects/join.png',
-      desc: 'Task manager inspired by the Kanban System. Create and organire tasks using drag and drop functions, assign users and categories.',
+      desc: 'Task manager inspired by the Kanban System. Create and organise tasks using drag and drop functions, assign users and categories.',
     },
   ];
 }
