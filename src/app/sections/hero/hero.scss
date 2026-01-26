@@ -1,6 +1,15 @@
+:host {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   height: 100vh;
   background-image: url('/img/background/01_Hero1.png');
+  max-width: 1920px;
+  width: 100%;
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
