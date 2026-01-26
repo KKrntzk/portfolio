@@ -1,8 +1,9 @@
-<div class="content">
-  <div class="preview-container"></div>
-  <h3>El Pollo Loco</h3>
-  <p>
-    Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco
-    salsa to fight the crazy hen.
-  </p>
+<div class="projects-wrapper">
+  <app-project-card
+    *ngFor="let p of projects"
+    [title]="p.title"
+    [description]="p.desc"
+    [image]="p.img"
+  >
+  </app-project-card>
 </div>
