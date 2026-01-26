@@ -7,21 +7,44 @@
 .animation-container::before {
   content: '';
   position: absolute;
-  top: -10px;
-  bottom: -10px;
-  left: -10px;
-  right: -10px;
+  top: -30px;
+  bottom: -30px;
+  left: -40px;
+  right: -40px;
 
-  background-image: url('/img/00_Hand-drawn-lines/02_Skills/color-option-1/1.png');
+  background-image: url('/img/00_Hand-drawn-lines/02_Skills/1.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   clip-path: inset(0 0 100% 0);
   transition: clip-path 0.4s ease-in-out;
   z-index: 2;
-  pointer-events: none;
 }
 
 .animation-container:hover::before {
   clip-path: inset(0 0 0 0);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+h2 {
+  font-size: 64px;
+  color: #f8f9fa;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f8f9fa;
+}
+
+.title-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
