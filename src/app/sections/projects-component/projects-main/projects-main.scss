@@ -1,0 +1,37 @@
+.content {
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.animation-container {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 48px;
+}
+
+.animation-container::before {
+  content: '';
+  position: absolute;
+  top: 75px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+
+  background-image: url('/img/00_Hand-drawn-lines/03_Portfolio/1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.4s ease-in-out;
+  z-index: 2;
+}
+
+.animation-container:hover::before {
+  clip-path: inset(0 0 0 0);
+}

@@ -7,7 +7,7 @@
 .content {
   width: 100%;
   max-width: 1920px;
-  height: 800px;
+  height: 1200px;
   background-image: url('/img/background/03_Skills1.png');
   background-size: cover;
   background-position: top;
@@ -25,10 +25,6 @@
   align-items: flex-start;
 }
 
-.left-col {
-  display: flex;
-}
-
 .right-col {
   display: flex;
   flex-direction: column;
@@ -40,5 +36,5 @@
 .badge-wrapper {
   position: absolute;
   right: 150px;
-  bottom: 80px;
+  bottom: 350px;
 }
