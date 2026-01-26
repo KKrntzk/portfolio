@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .content {
@@ -13,7 +12,33 @@
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.main-layout {
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  align-items: flex-start;
+}
+
+.left-col {
+  display: flex;
+}
+
+.right-col {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-left: 60px;
+  gap: 60px;
+}
+
+.badge-wrapper {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
 }
