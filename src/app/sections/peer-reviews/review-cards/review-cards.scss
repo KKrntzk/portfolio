@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding-top: 80px;
 
   &:has(.sticker-wrapper:nth-child(3):hover) {
     .sticker-wrapper:nth-child(1) {
@@ -12,7 +12,7 @@
 }
 
 .sticker-wrapper {
-  width: 500px;
+  width: 650px;
   margin: 0 -95px;
   position: relative;
   transition: z-index 0s;
