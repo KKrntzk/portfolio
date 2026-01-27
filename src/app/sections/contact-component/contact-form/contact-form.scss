@@ -2,9 +2,15 @@
   background-color: #f7c518;
   width: 50%;
   height: 1px;
-  margin: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
   transition: all 0.3s ease;
   box-shadow: 0 0 5px rgba(247, 197, 24, 0.3);
+}
+
+.last-line {
+  margin-top: 0px;
 }
 
 .input-group:hover label {
@@ -76,24 +82,35 @@ label {
   background-color: transparent;
   cursor: pointer;
   position: relative;
-  transition: all 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.agreement-checkbox input[type='checkbox']::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/additionals/Check1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .agreement-checkbox input[type='checkbox']:checked {
-  background-color: #3355ff;
+  background-color: transparent;
   border-color: #3355ff;
   box-shadow: 0 0 10px rgba(51, 85, 255, 0.5);
 }
 
 .agreement-checkbox input[type='checkbox']:checked::after {
-  content: '✔';
-  position: absolute;
-  color: white;
-  font-size: 14px;
-  left: 3px;
-  top: -1px;
+  opacity: 1;
 }
-
 .policy-text {
   font-size: 18px;
 }
