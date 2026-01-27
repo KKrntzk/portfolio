@@ -14,7 +14,33 @@
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 120px;
+}
+
+app-contact-main,
+app-contact-form {
+  flex: 1;
+  width: 50%;
+}
+
+app-contact-form {
+  display: flex;
+  justify-content: end;
+}
+
+app-footer {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
 }

@@ -1,6 +1,11 @@
+.content {
+  width: 700px;
+  padding-right: 40px;
+}
+
 .separator {
   background-color: #f7c518;
-  width: 50%;
+  width: 100%;
   height: 1px;
   margin: 0;
   margin-bottom: 20px;
@@ -51,12 +56,15 @@ textarea {
   width: 100%;
   outline: none;
   padding: 10px 0;
+  padding-left: 20px;
+  resize: none;
 }
 
 label {
   display: block;
   font-size: 24px;
   color: #f8f9fa;
+  padding-left: 20px;
 }
 
 .agreement-checkbox {
@@ -147,4 +155,10 @@ label {
 
 .send-button:hover {
   background-color: #f87a55;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
