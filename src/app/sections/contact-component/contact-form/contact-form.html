@@ -1,1 +1,31 @@
-<p>contact-form works!</p>
+<div class="content">
+  <form class="contact-form">
+    <div class="input-group">
+      <div class="separator"></div>
+      <label>What's your name?</label>
+      <input type="text" placeholder="Your name goes here" />
+    </div>
+
+    <div class="input-group">
+      <div class="separator"></div>
+      <label>What's your email?</label>
+      <input type="email" placeholder="youremail@email.com" />
+    </div>
+
+    <div class="input-group">
+      <div class="separator"></div>
+      <label>How can I help you?</label>
+      <textarea placeholder="Hello Kelly, I am interested in..."></textarea>
+    </div>
+
+    <div class="separator last-line"></div>
+  </form>
+  <div class="agreement-checkbox">
+    <input type="checkbox" id="privacy" name="privacy" />
+    <label class="policy-text" for="privacy">
+      I've read the <span class="highlight-text">privacy policy</span> and agree to the processing
+      of my data as outlined.
+    </label>
+  </div>
+  <button class="send-button">send</button>
+</div>
