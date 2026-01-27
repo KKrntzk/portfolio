@@ -9,3 +9,25 @@ h3 {
 .content {
   color: #f8f9fa;
 }
+
+.animation-container {
+  display: block;
+  width: 400px;
+  height: auto;
+  clip-path: inset(0 100% 0 0);
+  animation: revealAndHide 3.5s ease-in-out infinite;
+}
+
+@keyframes revealAndHide {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  30%,
+  50% {
+    clip-path: inset(0 0 0 0);
+  }
+  80%,
+  100% {
+    clip-path: inset(0 0 0 100%);
+  }
+}
