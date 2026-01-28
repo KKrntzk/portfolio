@@ -33,7 +33,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 870px;
+  width: 100%;
+  max-width: 870px;
+  padding: 0 20px;
 }
 
 .title-2-container {
@@ -43,7 +45,8 @@
 
 .inner-container-with-profile {
   display: flex;
-  gap: 80px;
+  width: 100%;
+  gap: 5%;
   align-items: center;
   justify-content: center;
 }
