@@ -88,3 +88,20 @@ img {
     opacity: 0;
   }
 }
+
+@media (max-width: 1500px) {
+  .sticker-wrapper {
+    height: 150px;
+    width: 150px;
+  }
+
+  .sticker-text {
+    font-size: 24px;
+    bottom: 20px;
+  }
+
+  .sticker-arrow {
+    width: 25px;
+    right: 60px;
+  }
+}

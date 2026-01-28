@@ -12,3 +12,9 @@
 span {
   color: #0e1013;
 }
+
+@media (max-width: 1500px) {
+  .content {
+    max-width: 700px;
+  }
+}
