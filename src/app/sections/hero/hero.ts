@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { HeroHeader } from '../hero-header/hero-header';
-import { HeroContent } from '../hero-content/hero-content';
-import { HeroSocials } from '../hero-socials/hero-socials';
+import { HeroMain } from './hero-main/hero-main';
+import { Header } from './header/header';
+import { Socials } from './socials/socials';
 
 @Component({
   selector: 'app-hero',
-  imports: [HeroHeader, HeroContent, HeroSocials],
+  imports: [Header, HeroMain, Socials, HeroMain],
   templateUrl: './hero.html',
   styleUrl: './hero.scss',
 })
