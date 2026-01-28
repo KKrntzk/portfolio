@@ -52,3 +52,18 @@
   justify-content: center;
   margin-top: 300px;
 }
+
+@media (max-width: 1500px) {
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .col-right {
+    margin-top: 70px;
+    margin-left: 500px;
+  }
+
+  .inner-layout {
+    flex-direction: column;
+  }
+}

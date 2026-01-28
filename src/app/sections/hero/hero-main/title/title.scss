@@ -22,3 +22,10 @@
 .content span:first-child:hover {
   text-transform: lowercase;
 }
+
+@media (max-width: 900px) {
+  .content {
+    font-size: 100px;
+    width: 450px;
+  }
+}

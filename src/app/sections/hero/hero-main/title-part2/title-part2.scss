@@ -3,7 +3,6 @@
   flex-wrap: nowrap;
   letter-spacing: 1px;
   font-size: 120px;
-  padding-top: 30px;
 }
 
 .content span {
@@ -15,4 +14,10 @@
 .content span:hover {
   color: #f7c518;
   text-transform: lowercase;
+}
+
+@media (max-width: 900px) {
+  .content {
+    font-size: 100px;
+  }
 }

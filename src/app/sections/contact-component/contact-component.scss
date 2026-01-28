@@ -21,9 +21,9 @@
 
 .inner-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
-  gap: 120px;
+  gap: 80px;
 }
 
 app-contact-main,

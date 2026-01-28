@@ -7,25 +7,19 @@
 
 .content {
   color: white;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.badge {
-  width: 60%;
-  display: flex;
-  justify-content: start;
-}
-
-.title {
-  width: 60%;
-}
-
+.badge,
+.title,
 .title2 {
-  width: 70%;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
 }
 
 .outer-container {
@@ -39,6 +33,7 @@
 }
 
 .title-2-container {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -49,10 +44,27 @@
   gap: 5%;
   align-items: center;
   justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.profile {
+  flex-shrink: 1;
+  min-width: 50px;
+  height: auto;
 }
 
 .cta-container {
   width: 100%;
   display: flex;
   justify-content: end;
+}
+
+@media (max-width: 900px) {
+  .cta-container {
+    padding-right: 40px;
+  }
+
+  .profile {
+    margin-top: -70px;
+  }
 }
