@@ -128,3 +128,15 @@
     color: #ffffff;
   }
 }
+
+@media (max-width: 1680px) {
+  .sticker-wrapper {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sticker-wrapper {
+    width: 400px;
+  }
+}
