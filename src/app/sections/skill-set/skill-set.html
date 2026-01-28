@@ -1,16 +1,18 @@
 <section class="content">
   <div class="main-layout">
-    <div class="left-col">
-      <app-skill-title></app-skill-title>
+    <div class="inner-layout">
+      <div class="col-left">
+        <app-skill-title></app-skill-title>
+      </div>
+
+      <div class="col-center">
+        <app-stack-describtion></app-stack-describtion>
+        <app-stack-icons></app-stack-icons>
+      </div>
     </div>
 
-    <div class="right-col">
-      <app-stack-describtion></app-stack-describtion>
-      <app-stack-icons></app-stack-icons>
+    <div class="col-right">
+      <app-pull-badge></app-pull-badge>
     </div>
-  </div>
-
-  <div class="badge-wrapper">
-    <app-pull-badge></app-pull-badge>
   </div>
 </section>

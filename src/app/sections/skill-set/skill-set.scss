@@ -11,8 +11,6 @@
   background-image: url('/img/background/03_Skills1.png');
   background-size: cover;
   background-position: top;
-  background-repeat: no-repeat;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,20 +19,36 @@
 .main-layout {
   display: flex;
   width: 100%;
+  height: 600px;
   max-width: 1920px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-bottom: 60px;
+}
+
+.inner-layout {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.col-left {
+  display: flex;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
-.right-col {
+.col-center {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 60px;
   gap: 60px;
 }
 
-.badge-wrapper {
-  position: absolute;
-  right: 150px;
-  bottom: 350px;
+.col-right {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
 }
