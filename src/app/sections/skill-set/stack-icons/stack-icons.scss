@@ -1,13 +1,19 @@
 .content {
   display: flex;
   flex-wrap: wrap;
-  width: 900px;
-  justify-content: space-evenly;
+  width: 100%;
+  max-width: 900px;
+  justify-content: center;
+  gap: clamp(20px, 3vw, 40px);
+  margin: 0 auto;
 }
 
 .content img {
+  width: clamp(40px, 8vw, 80px);
+  height: auto;
   filter: grayscale(100%);
   transition: all 0.3s ease;
+  object-fit: contain;
 }
 
 .content img:hover {
@@ -23,7 +29,11 @@
 
 @media (max-width: 800px) {
   .content {
-    width: 350px;
-    gap: 16px;
+    max-width: 300px;
+    gap: 15px;
+  }
+
+  .content img {
+    width: 60px;
   }
 }

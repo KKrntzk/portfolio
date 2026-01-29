@@ -2,3 +2,9 @@
   display: flex;
   gap: 120px;
 }
+
+@media (max-width: 650px) {
+  .projects-wrapper {
+    flex-direction: column;
+  }
+}

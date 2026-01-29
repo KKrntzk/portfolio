@@ -61,6 +61,7 @@
 }
 
 .sticker-text {
+  font-size: clamp(16px, 1.2vw, 18px);
   position: absolute;
   top: 0;
   left: 0;
@@ -70,9 +71,11 @@
   justify-content: flex-start;
   align-items: flex-start;
   font-weight: 800;
-  padding: 40px;
+  padding: clamp(20px, 2.5vw, 40px);
   box-sizing: border-box;
   z-index: 5;
+  max-height: 60%;
+  overflow: hidden;
 }
 
 .sticker-info {
@@ -85,27 +88,27 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 40px;
+  padding: clamp(20px, 2.5vw, 40px);
   box-sizing: border-box;
   z-index: 5;
 
   .name {
     font-weight: bold;
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 20px);
     transition: color 0.3s ease;
   }
 
   .title {
     font-weight: 400;
-    font-size: 18px;
+    font-size: clamp(14px, 1.2vw, 18px);
     transition: color 0.3s ease;
   }
 }
 
 .sticker-link {
   position: absolute;
-  bottom: 40px;
-  right: 40px;
+  bottom: clamp(20px, 2.5vw, 40px);
+  right: clamp(20px, 2.5vw, 40px);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -115,7 +118,7 @@
   span {
     color: #000;
     font-weight: bold;
-    font-size: 16px;
+    font-size: clamp(12px, 1vw, 16px);
     transition: color 0.3s ease;
   }
 
@@ -171,5 +174,26 @@
     &:hover {
       z-index: 10;
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .sticker-wrapper {
+    width: 90%;
+    max-width: 450px;
+  }
+
+  .sticker-text {
+    font-size: clamp(13px, 4vw, 16px);
+    padding: 25px;
+  }
+
+  .sticker-info {
+    padding: 25px;
+  }
+
+  .sticker-link {
+    bottom: 25px;
+    right: 25px;
   }
 }

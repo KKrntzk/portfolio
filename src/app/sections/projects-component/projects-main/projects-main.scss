@@ -19,10 +19,10 @@ h3 {
 .animation-container::before {
   content: '';
   position: absolute;
-  top: 75px;
-  bottom: -20px;
-  left: -20px;
-  right: -20px;
+  top: 55%;
+  left: -5%;
+  right: -5%;
+  height: 60%;
 
   background-image: url('/img/00_Hand-drawn-lines/03_Portfolio/1.png');
   background-repeat: no-repeat;
@@ -34,4 +34,10 @@ h3 {
 
 .animation-container:hover::before {
   clip-path: inset(0 0 0 0);
+}
+
+span {
+  display: block;
+  font-size: clamp(16px, 1.1vw, 18px);
+  max-width: 800px;
 }
