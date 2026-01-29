@@ -36,12 +36,12 @@
 }
 
 h2 {
-  font-size: 64px;
+  font-size: clamp(32px, 3.33vw, 64px);
   color: #f8f9fa;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: clamp(20px, 1.25vw, 24px);
   color: #f8f9fa;
 }
 

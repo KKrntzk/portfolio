@@ -48,14 +48,25 @@ app-footer {
 
 @media (max-width: 800px) {
   .content {
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 50px;
   }
 
   .inner-container {
-    display: flex;
-    width: 100%;
     flex-direction: column;
-    height: 1000px;
-    align-items: flex-start;
+    height: auto;
+    align-items: center;
+    gap: 0px;
+  }
+
+  app-contact-main,
+  app-contact-form {
+    margin-top: 80px;
+    width: 90%;
+  }
+
+  app-contact-form {
+    justify-content: center;
   }
 }
