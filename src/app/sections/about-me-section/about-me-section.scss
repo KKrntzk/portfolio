@@ -27,3 +27,9 @@
   display: flex;
   justify-content: end;
 }
+
+@media (max-width: 900px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+}

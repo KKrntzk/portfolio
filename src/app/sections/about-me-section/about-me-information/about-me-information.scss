@@ -35,3 +35,9 @@ img {
 .animation-container:hover::before {
   clip-path: inset(0 0 0 0);
 }
+
+@media (max-width: 900px) {
+  .content {
+    padding-left: 40px;
+  }
+}

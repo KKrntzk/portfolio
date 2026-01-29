@@ -44,3 +44,9 @@ app-socials {
   flex-direction: column;
   width: fit-content;
 }
+
+@media (max-width: 900px) {
+  .app-hero-main {
+    padding-right: 40px;
+  }
+}
