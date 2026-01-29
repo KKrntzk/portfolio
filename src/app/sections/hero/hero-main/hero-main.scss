@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 
 .badge,
@@ -29,7 +30,6 @@
   align-items: center;
   width: 100%;
   max-width: 870px;
-  padding: 0 20px;
 }
 
 .title-2-container {
@@ -66,5 +66,51 @@
 
   .profile {
     margin-top: -20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .inner-container-with-profile {
+    display: contents;
+  }
+
+  .innermost-container {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .title-2-container {
+    order: 2;
+    justify-content: flex-start;
+  }
+
+  .cta-container {
+    order: 3;
+    justify-content: end;
+    padding-right: 40;
+    width: 100%;
+  }
+
+  .profile {
+    order: 4;
+    margin-top: 30px;
+    width: clamp(200px, 60vw, 250px);
+    align-self: center;
+  }
+
+  .badge,
+  .title,
+  .title2 {
+    max-width: 100%;
   }
 }
