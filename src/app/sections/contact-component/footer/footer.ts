@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.scss',
 })
 export class Footer {
-
+  openGithub() {
+    window.open('https://github.com/KKrntzk', '_blank');
+  }
 }

@@ -1,5 +1,11 @@
 <div class="content">
-  <div class="img-border bottom-to-top"><img src="./img/icons/linkedInIcon.png" alt="" /></div>
-  <div class="img-border"><img src="./img/icons/gitHubIcon.png" alt="" /></div>
-  <div class="img-border"><img src="./img/icons/mailIcon.png" alt="" /></div>
+  <a href="#" target="_blank" rel="noopener noreferrer" class="img-border bottom-to-top"
+    ><img src="./img/icons/linkedInIcon.png" alt=""
+  /></a>
+  <a href="https://github.com/KKrntzk" target="_blank" rel="noopener noreferrer" class="img-border">
+    <img src="./img/icons/gitHubIcon.png" alt="" />
+  </a>
+  <div [routerLink]="['/']" fragment="contact-me" class="img-border">
+    <img src="./img/icons/mailIcon.png" alt="" />
+  </div>
 </div>
