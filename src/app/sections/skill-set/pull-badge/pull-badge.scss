@@ -105,3 +105,48 @@ img {
     bottom: 15px;
   }
 }
+
+.finish-text,
+.finish-img {
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+}
+
+.finish-text {
+  font-family: 'Kalam';
+  font-size: 32px;
+  color: #f8f9fa;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  line-height: 1.2;
+}
+
+.finish-img {
+  width: 60px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.peel-checkbox:checked ~ .sticker-wrapper .finish-text,
+.peel-checkbox:checked ~ .sticker-wrapper .finish-img {
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+  .finish-text {
+    font-size: 24px;
+  }
+
+  .finish-img {
+    width: 45px;
+    bottom: 15px;
+  }
+}

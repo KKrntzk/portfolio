@@ -41,3 +41,25 @@ span {
   font-size: clamp(16px, 1.1vw, 18px);
   max-width: 100%;
 }
+
+@keyframes drawLine {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+@media (max-width: 720px) {
+  .animation-container:hover::before {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  .animation-container::before {
+    animation: drawLine 5s ease-in-out infinite;
+  }
+}

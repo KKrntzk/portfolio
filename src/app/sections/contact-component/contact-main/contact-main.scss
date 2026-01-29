@@ -76,4 +76,32 @@ p {
   p {
     max-width: 100%;
   }
+
+  .line-container {
+    justify-content: end;
+    min-height: 40px;
+    padding-top: 80px;
+
+    justify-content: flex-start;
+  }
+
+  .animation-container {
+    width: 100px;
+    transform: rotate(90deg);
+    animation: revealVertical 3.5s ease-in-out infinite;
+  }
+
+  @keyframes revealVertical {
+    0% {
+      clip-path: inset(0 100% 0 0);
+    }
+    30%,
+    50% {
+      clip-path: inset(0 0 0 0);
+    }
+    80%,
+    100% {
+      clip-path: inset(0 0 0 100%);
+    }
+  }
 }

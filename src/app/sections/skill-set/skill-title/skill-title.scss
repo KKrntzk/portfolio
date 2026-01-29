@@ -59,3 +59,25 @@ h3 {
     bottom: -10px;
   }
 }
+
+@keyframes drawLineVertical {
+  0% {
+    clip-path: inset(0 0 100% 0);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    clip-path: inset(100% 0 0 0);
+  }
+}
+
+@media (max-width: 720px) {
+  .animation-container:hover::before {
+    clip-path: inset(0 0 100% 0);
+  }
+
+  .animation-container::before {
+    animation: drawLineVertical 3s ease-in-out infinite;
+  }
+}

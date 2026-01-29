@@ -36,3 +36,25 @@ h3 {
 .animation-container:hover::before {
   clip-path: inset(0 0 0 0);
 }
+
+@keyframes drawLineLeft {
+  0% {
+    clip-path: inset(0 0 0 100%);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    clip-path: inset(0 100% 0 0);
+  }
+}
+
+@media (max-width: 720px) {
+  .animation-container:hover::before {
+    clip-path: inset(0 0 0 100%);
+  }
+
+  .animation-container::before {
+    animation: drawLineLeft 2s ease-in-out infinite;
+  }
+}
