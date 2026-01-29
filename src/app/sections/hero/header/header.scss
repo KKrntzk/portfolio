@@ -8,7 +8,7 @@
 }
 
 .content {
-  height: 70px;
+  height: 80px;
   color: white;
   width: 100%;
   max-width: 1920px;
@@ -22,4 +22,34 @@
 
 .nav-header {
   width: 70%;
+}
+
+@media (max-width: 720px) {
+  .content {
+    padding: 0 20px;
+  }
+
+  app-navbar,
+  app-lg-switch {
+    display: none;
+  }
+}
+
+.mobile-burger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+
+  .line {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+  }
+}
+
+@media (max-width: 720px) {
+  .mobile-burger {
+    display: flex;
+  }
 }

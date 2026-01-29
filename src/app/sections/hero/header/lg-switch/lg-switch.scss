@@ -67,3 +67,14 @@
   z-index: 1;
   cursor: pointer;
 }
+
+@media (max-width: 720px) {
+  .content {
+    transform: scale(0.85);
+    gap: 4px;
+  }
+
+  .language-btn {
+    font-size: 14px;
+  }
+}

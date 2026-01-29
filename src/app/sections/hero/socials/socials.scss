@@ -38,3 +38,22 @@ img {
   background-size: 100% 100%;
   cursor: pointer;
 }
+
+@media (max-width: 720px) {
+  .content {
+    flex-direction: row;
+    min-height: auto;
+    padding: 20px 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .img-border {
+    width: 45px;
+    height: 45px;
+  }
+
+  img {
+    width: 30px;
+  }
+}

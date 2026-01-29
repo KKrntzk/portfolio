@@ -50,3 +50,9 @@ app-socials {
     padding-right: 40px;
   }
 }
+
+@media (max-width: 720px) {
+  app-socials {
+    display: none;
+  }
+}
