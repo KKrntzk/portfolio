@@ -5,22 +5,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 40px;
+  padding: 50px;
   max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 span {
   color: #0e1013;
+  word-break: break-word;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 500px) {
   .content {
-    max-width: 700px;
+    padding: 60px 35px 40px 35px;
+  }
+
+  span {
+    font-size: 14.5px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 360px) {
   .content {
-    padding: 60px 60px;
+    padding: 60px 25px 35px 25px;
   }
 }

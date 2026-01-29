@@ -33,3 +33,10 @@
     flex-direction: column-reverse;
   }
 }
+
+@media (max-width: 720px) {
+  .content {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+}
