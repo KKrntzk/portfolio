@@ -49,14 +49,29 @@
 }
 
 .polaroid-wrapper:hover .smiley::after {
-  content: ':D';
+  content: '  :D';
   visibility: visible;
   display: inline-block;
-  margin-left: -25px;
+  margin-left: -15px;
 }
 
 @media (max-width: 900px) {
   .polaroid-wrapper {
     width: 150px;
+  }
+
+  .frame {
+    width: 150px;
+  }
+
+  .photo {
+    top: 10px;
+    left: 9px;
+    width: 130px;
+    height: 170px;
+  }
+
+  .name-tag {
+    font-size: 20px;
   }
 }

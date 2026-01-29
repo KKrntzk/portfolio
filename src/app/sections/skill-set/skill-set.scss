@@ -67,3 +67,14 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 800px) {
+  .col-right {
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  .inner-layout {
+    gap: 30px;
+  }
+}

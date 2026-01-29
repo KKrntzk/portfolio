@@ -162,3 +162,25 @@ label {
   justify-content: flex-end;
   width: 100%;
 }
+
+@media (max-width: 800px) {
+  .content {
+    width: 700px;
+    padding-left: 40px;
+    margin-top: -230px;
+  }
+
+  .contact-form {
+    width: 700px;
+    margin-left: 310px;
+  }
+
+  .agreement-checkbox {
+    width: 700px;
+    margin-left: 310px;
+  }
+
+  .button-container {
+    margin-left: 380px;
+  }
+}

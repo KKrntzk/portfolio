@@ -20,3 +20,10 @@
     width: 700px;
   }
 }
+
+@media (max-width: 800px) {
+  .content {
+    width: 350px;
+    gap: 16px;
+  }
+}
