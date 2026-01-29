@@ -5,6 +5,9 @@
 
 h2 {
   font-size: clamp(32px, 3.33vw, 64px);
+  position: relative;
+  display: inline-block;
+  margin: 0;
 }
 
 h3 {
@@ -18,15 +21,14 @@ img {
 .animation-container::before {
   content: '';
   position: absolute;
-  top: 0px;
-  bottom: -70px;
+  top: 65%;
   left: -10px;
-  right: -10px;
-
+  width: 40%;
+  height: 40px;
   background-image: url('/img/00_Hand-drawn-lines/01_About-me/1.png');
   background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: left;
+  background-size: 100% auto;
+  background-position: left center;
   clip-path: inset(0 100% 0 0);
   transition: clip-path 0.4s ease-in-out;
   z-index: 2;
@@ -39,5 +41,11 @@ img {
 @media (max-width: 900px) {
   .content {
     padding-left: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .animation-container::before {
+    width: 60%;
   }
 }

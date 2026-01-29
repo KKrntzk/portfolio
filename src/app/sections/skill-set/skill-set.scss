@@ -73,6 +73,10 @@
 }
 
 @media (max-width: 800px) {
+  .col-left {
+    justify-content: end;
+    padding-right: 40px;
+  }
   .inner-layout {
     gap: 0px;
   }

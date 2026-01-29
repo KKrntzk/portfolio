@@ -7,10 +7,10 @@
 .animation-container::before {
   content: '';
   position: absolute;
-  top: -30px;
-  bottom: -30px;
-  left: -40px;
-  right: -40px;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
 
   background-image: url('/img/00_Hand-drawn-lines/02_Skills/1.png');
   background-repeat: no-repeat;
@@ -49,4 +49,13 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+}
+
+@media (min-width: 820px) {
+  .animation-container::before {
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+  }
 }
