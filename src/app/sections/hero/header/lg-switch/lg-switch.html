@@ -1,5 +1,9 @@
 <div class="content">
-  <button class="language-btn animation-container"><span class="en-span content">EN</span></button>
+  <button (click)="useLanguage('en')" class="language-btn animation-container">
+    <span class="en-span content">EN</span>
+  </button>
   <button class="switch-btn"><span class="slider"></span></button>
-  <button class="language-btn animation-container"><span class="de-span content">DE</span></button>
+  <button (click)="useLanguage('de')" class="language-btn animation-container">
+    <span class="de-span content">DE</span>
+  </button>
 </div>

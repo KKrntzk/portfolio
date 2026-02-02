@@ -1,0 +1,10 @@
+{
+  "hero": {
+    "navbar": {
+      "About me": "Über mich",
+      "Skills": "Skills",
+      "Projects": "Projekte",
+      "Contact": "Kontakt"
+    }
+  }
+}
