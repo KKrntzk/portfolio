@@ -10,7 +10,7 @@
       />
 
       @if (contactForm.controls.name.invalid && contactForm.controls.name.touched) {
-        <small class="error-text"> {{ 'form.name.error' | translate }}</small>
+        <span class="error-text"> {{ 'form.name.error' | translate }}</span>
       }
     </div>
 
@@ -24,7 +24,7 @@
       />
 
       @if (contactForm.controls.email.invalid && contactForm.controls.email.touched) {
-        <small class="error-text">{{ 'form.name.error' | translate }}</small>
+        <span class="error-text">{{ 'form.name.error' | translate }}</span>
       }
     </div>
 
@@ -37,7 +37,7 @@
       ></textarea>
 
       @if (contactForm.controls.message.invalid && contactForm.controls.message.touched) {
-        <small class="error-text">{{ 'form.message.error' | translate }}</small>
+        <span class="error-text">{{ 'form.message.error' | translate }}</span>
       }
     </div>
 

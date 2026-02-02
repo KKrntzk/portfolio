@@ -7,6 +7,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 p {
@@ -85,4 +86,36 @@ p {
 
 .animation-container:hover::before {
   clip-path: inset(0 0 0 0);
+}
+
+.links-container {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 720px) {
+  .content {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  .animation-container {
+    order: 1;
+    width: auto;
+    text-align: right;
+  }
+
+  .links-container {
+    order: 2;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .btn {
+    flex: 1;
+    max-width: none;
+    min-width: 100px;
+  }
 }
