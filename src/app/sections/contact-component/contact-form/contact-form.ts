@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
 
 import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
+import { TranslatePipe } from '@ngx-translate/core';
 
 export function emailDomainValidator(): ValidatorFn {
   return (control: AbstractControl): ValidationErrors | null => {
@@ -16,7 +17,7 @@ export function emailDomainValidator(): ValidatorFn {
 
 @Component({
   selector: 'app-contact-form',
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, TranslatePipe],
   templateUrl: './contact-form.html',
   styleUrl: './contact-form.scss',
 })

@@ -39,5 +39,34 @@
         "desc": "Task manager inspired by the Kanban System. Create and organise tasks using drag and drop functions, assign users and categories."
       }
     }
+  },
+  "contact": {
+    "titleSmall": "CONTACT ME",
+    "titleMain": "Ready to work together?",
+    "description": "I’m on the lookout for a new team where I can dive into complex problems and deliver elegant frontend solutions. My goal is always to leave a codebase better than I found it and to create interfaces that users truly enjoy. I am committed to staying at the forefront of web technologies, and I’m confident that my blend of technical expertise and enthusiasm for growth will make a meaningful impact on your mission.",
+    "descriptionCta": "I’m ready to hit the ground running on a fresh project—let’s discuss how my skills can help your team achieve its goals."
+  },
+  "form": {
+    "name": {
+      "label": "What's your name?",
+      "placeholder": "Your name goes here",
+      "error": "Oops! It seems your name is missing"
+    },
+    "email": {
+      "label": "What's your email?",
+      "placeholder": "youremail@email.com",
+      "error": "Oh! Your email is required"
+    },
+    "message": {
+      "label": "How can I help you?",
+      "placeholder": "Hello Kelly, I am interested in...",
+      "error": "What do you need to develop?"
+    },
+    "privacy": {
+      "textBefore": "I've read the ",
+      "link": "privacy policy",
+      "textAfter": " and agree to the processing of my data as outlined.",
+      "error": "Please accept the privacy policy."
+    }
   }
 }
