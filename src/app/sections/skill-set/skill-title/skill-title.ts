@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-skill-title',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './skill-title.html',
   styleUrl: './skill-title.scss',
 })
-export class SkillTitle {
-
-}
+export class SkillTitle {}

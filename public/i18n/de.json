@@ -6,5 +6,34 @@
       "Projects": "Projekte",
       "Contact": "Kontakt"
     }
+  },
+  "about": {
+    "titleSmall": "WER IST KELLY?",
+    "titleMain": "Über mich",
+    "description": "Ich bin eine Frontend-Entwicklerin, für die Code eine moderne Form der Magie ist. Ich liebe die Herausforderung, eine leere Seite in ein immersives, interaktives Erlebnis zu verwandeln – eine Mischung aus klarer Logik und kreativem Design. Meinen Antrieb ziehe ich aus den komplexen Magiesystemen der Fantasy-Romane, die ich lese. Genau wie eine gute Geschichte braucht auch ein Interface innere Konsistenz und einen Hauch von Magie. Ich lerne ständig neue „Zaubersprüche“ für meinen Tech-Stack, um sicherzustellen, dass sich jede User Journey mühelos und bezaubernd anfühlt.",
+    "footer": "Wenn der Bildschirm schwarz wird, findet man mich mit einer Tasse Tee und einem Fantasy-Epos in der Hand – immer neugierig, immer bereit für das nächste Projekt.",
+    "cta": "Lass uns gemeinsam etwas Außergewöhnliches erschaffen!"
+  },
+  "locationSnippets": {
+    "nuremberg": "lebend nahe Nürnberg",
+    "travel": "Reisebereit",
+    "remote": "Remote-Arbeit möglich"
+  },
+  "skills": {
+    "titleSmall": "MEIN STACK",
+    "titleMain": "Skillset",
+    "description": "Ich spezialisiere mich auf den Bau skalierbarer, performanter Webanwendungen mit Angular und TypeScript. Ich entwickle klare, responsive Interfaces mit HTML, CSS und JS, mit Fokus auf effiziente REST-API-Anbindung und kollaborative Versionskontrolle via Git. Meine größte Stärke ist nicht nur der Code, den ich heute schreibe, sondern meine Fähigkeit, die Technologien von morgen zu meistern. Ich suche ständig nach der nächsten Herausforderung, um meinen Stack zu erweitern und mein Handwerk zu verfeinern.",
+    "stickerPullPart1": "einfach",
+    "stickerPullPart2": "abziehen",
+    "stickerFinish": "aktuell lerne ich:"
+  },
+  "projects": {
+    "titleSmall": "MEIN HANDWERK",
+    "titleMain": "Projekte",
+    "description": "Ich lade dich ein, mit diesen Projekten zu interagieren, um meinen Ansatz für das moderne Web zu sehen – hier lege ich Wert auf effizienten, schlanken Code, um Interfaces zu bauen, die ebenso responsiv wie intuitiv sind. Für mich geht es bei einem großartigen Projekt nicht nur um das Aussehen, sondern darum, wie mühelos es sich bewegt und auf den Nutzer reagiert. Ich lerne ständig dazu und verfeinere meine Prozesse. Erkunde gerne meine Builds und sieh selbst, wie ich die Lücke zwischen komplexem Code und einer nahtlosen User Journey schließe.",
+    "projectDescriptions": {
+      "polloLoco": "Ein Jump-and-Run-Spiel, basierend auf einem objektorientierten Ansatz. Hilf Pepe dabei, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
+      "join": "Ein vom Kanban-System inspirierter Aufgaben-Manager. Erstelle und organisiere Aufgaben per Drag-and-Drop, weise Nutzer zu und erstelle Kategorien."
+    }
   }
 }

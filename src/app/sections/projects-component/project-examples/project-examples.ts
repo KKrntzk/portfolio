@@ -1,18 +1,27 @@
 import { Component } from '@angular/core';
+
 import { ProjectCard } from '../project-card/project-card';
+
 import { CommonModule } from '@angular/common';
+
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-project-examples',
-  imports: [ProjectCard, CommonModule],
+
+  imports: [ProjectCard, CommonModule, TranslatePipe],
+
   templateUrl: './project-examples.html',
+
   styleUrl: './project-examples.scss',
 })
 export class ProjectExamples {
   projects = [
     {
       title: 'El Pollo Loco',
+
       img: '/img/projects/Pollo.png',
+
       desc: 'Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.',
     },
     {

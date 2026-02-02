@@ -6,5 +6,38 @@
       "Projects": "Projects",
       "Contact": "Contact"
     }
+  },
+  "about": {
+    "titleSmall": "WHO'S KELLY?",
+    "titleMain": "About me",
+    "description": "I’m a Frontend Developer who views code as a form of modern-day sorcery. I love the challenge of transforming a blank page into an immersive, interactive experience—blending clean logic with creative design. I draw my drive from the complex magic systems in the fantasy novels I read. Just like a great story, a great interface needs internal consistency and a touch of wonder. I’m constantly learning new \"spells\" in my tech stack to ensure every user journey feels effortless and enchanting.",
+    "footer": "When the screen goes dark, you’ll find me with a cup of tea and a fantasy epic in hand—always curious, always dreaming up the next build.",
+    "cta": "Let's collaborate and build something remarkable together!"
+  },
+  "locationSnippets": {
+    "nuremberg": "Based near Nuremberg",
+    "travel": "Open to travel",
+    "remote": "Open to work remote"
+  },
+  "skills": {
+    "titleSmall": "MY STACK",
+    "titleMain": "Skillset",
+    "description": "I specialize in building scalable, high-performance web applications using Angular and TypeScript. I build clean, responsive interfaces using HTML, CSS, and JS, with a focus on efficient REST API consumption and collaborative version control via Git. My greatest skill isn't just the code I write today, but my ability to learn the technologies of tomorrow. I’m always looking for the next challenge to expand my stack and refine my craft.",
+    "stickerPullPart1": "Pull to",
+    "stickerPullPart2": "Peel",
+    "stickerFinish": "I'm currently looking into:"
+  },
+  "projects": {
+    "titleSmall": "MY CRAFT",
+    "titleMain": "Projects",
+    "description": "I invite you to interact with these projects to see my approach to the modern web—where I prioritize writing efficient, lean code to build interfaces that are as responsive as they are intuitive. For me, a great project isn't just about how it looks, but how effortlessly it moves and responds to the user. I'm always learning and refining my process, so I’d love for you to explore the builds and see how I bridge the gap between complex code and a seamless user journey.",
+    "projectDescriptions": {
+      "polloLoco": {
+        "desc": "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen."
+      },
+      "join": {
+        "desc": "Task manager inspired by the Kanban System. Create and organise tasks using drag and drop functions, assign users and categories."
+      }
+    }
   }
 }
