@@ -31,3 +31,10 @@
   z-index: 1;
   cursor: pointer;
 }
+
+:host-context(.mobile-menu) {
+  .content {
+    color: #f8f9fa;
+    font-size: 24px;
+  }
+}

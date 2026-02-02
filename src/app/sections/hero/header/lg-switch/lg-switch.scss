@@ -68,13 +68,49 @@
   cursor: pointer;
 }
 
-@media (max-width: 720px) {
+:host-context(.mobile-menu) {
   .content {
-    transform: scale(0.85);
-    gap: 4px;
+    gap: 25px;
+    transform: none;
+    padding: 20px 0;
   }
 
   .language-btn {
-    font-size: 14px;
+    font-size: 24px;
+  }
+
+  .en-span,
+  .de-span,
+  .content {
+    color: #f8f9fa;
+  }
+
+  .switch-btn {
+    width: 60px;
+    height: 12px;
+    border-width: 2px;
+  }
+
+  .slider {
+    width: 26px;
+    height: 26px;
+    top: -9px;
+    left: -2px;
+    border-width: 2px;
+  }
+
+  .animation-container::before {
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 720px) {
+  :host-context(:not(.mobile-menu)) .content {
+    transform: scale(0.85);
+    gap: 4px;
   }
 }
