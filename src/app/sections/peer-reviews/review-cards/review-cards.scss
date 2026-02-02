@@ -198,3 +198,41 @@
     right: 25px;
   }
 }
+
+@media (max-width: 500px) {
+  .sticker-wrapper {
+    width: 95%;
+    margin: -40px 0 0 0;
+  }
+
+  .sticker-text {
+    font-size: clamp(12px, 3.5vw, 14px);
+    padding: 15px 20px;
+    max-height: 55%;
+  }
+
+  .sticker-info {
+    padding: 15px 20px;
+
+    .name {
+      font-size: 14px;
+    }
+
+    .title {
+      font-size: 12px;
+    }
+  }
+
+  .sticker-link {
+    bottom: 15px;
+    right: 20px;
+
+    span {
+      font-size: 11px;
+    }
+
+    .link-icon {
+      width: 16px;
+    }
+  }
+}
