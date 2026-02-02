@@ -52,7 +52,7 @@ app-socials {
 }
 
 @media (max-width: 720px) {
-  app-socials {
+  :host-context(:not(.mobile-menu)) app-socials {
     display: none;
   }
 }
