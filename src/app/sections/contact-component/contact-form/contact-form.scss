@@ -158,6 +158,21 @@ label {
   background-color: #f87a55;
 }
 
+.send-button:disabled {
+  background-color: #555555;
+  color: #888888;
+  border-color: #666666;
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+  opacity: 0.6;
+}
+
+.send-button:disabled:hover {
+  background-color: #555555;
+  transform: none;
+}
+
 .button-container {
   display: flex;
   justify-content: flex-end;
@@ -175,4 +190,8 @@ label {
   .agreement-checkbox {
     width: 100%;
   }
+}
+
+.error-text {
+  color: #ff3a00;
 }
