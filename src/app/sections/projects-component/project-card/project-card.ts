@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-project-card',
 
-  imports: [TranslatePipe],
+  imports: [TranslatePipe, RouterLink],
 
   templateUrl: './project-card.html',
 
