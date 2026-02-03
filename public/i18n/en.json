@@ -40,6 +40,10 @@
       }
     }
   },
+  "testimonials": {
+    "titleSmall": "IN THEIR WORDS:",
+    "titleMain": "Colleagues' Thoughts"
+  },
   "contact": {
     "titleSmall": "CONTACT ME",
     "titleMain": "Ready to work together?",

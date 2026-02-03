@@ -32,9 +32,17 @@
     "titleMain": "Projekte",
     "description": "Ich lade dich ein, mit diesen Projekten zu interagieren, um meinen Ansatz für das moderne Web zu sehen – hier lege ich Wert auf effizienten, schlanken Code, um Interfaces zu bauen, die ebenso responsiv wie intuitiv sind. Für mich geht es bei einem großartigen Projekt nicht nur um das Aussehen, sondern darum, wie mühelos es sich bewegt und auf den Nutzer reagiert. Ich lerne ständig dazu und verfeinere meine Prozesse. Erkunde gerne meine Builds und sieh selbst, wie ich die Lücke zwischen komplexem Code und einer nahtlosen User Journey schließe.",
     "projectDescriptions": {
-      "polloLoco": "Ein Jump-and-Run-Spiel, basierend auf einem objektorientierten Ansatz. Hilf Pepe dabei, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
-      "join": "Ein vom Kanban-System inspirierter Aufgaben-Manager. Erstelle und organisiere Aufgaben per Drag-and-Drop, weise Nutzer zu und erstelle Kategorien."
+      "polloLoco": {
+        "desc": "Ein Jump-and-Run-Spiel, basierend auf einem objektorientierten Ansatz..."
+      },
+      "join": {
+        "desc": "Ein vom Kanban-System inspirierter Aufgaben-Manager..."
+      }
     }
+  },
+  "testimonials": {
+    "titleSmall": "IN IHREN WORTEN:",
+    "titleMain": "Kollegen über mich"
   },
   "contact": {
     "titleSmall": "KONTAKT",

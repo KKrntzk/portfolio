@@ -10,7 +10,10 @@ import { TranslateDirective, TranslatePipe, TranslateService } from '@ngx-transl
 export class LgSwitch {
   private translate = inject(TranslateService);
 
+  currentLang: string = 'en';
+
   useLanguage(language: string): void {
     this.translate.use(language);
+    this.currentLang = language;
   }
 }

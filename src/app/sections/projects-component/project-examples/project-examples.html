@@ -1,9 +1,5 @@
 <div class="projects-wrapper">
-  <app-project-card
-    *ngFor="let p of projects"
-    [title]="p.title"
-    [description]="p.desc"
-    [image]="p.img"
-  >
-  </app-project-card>
+  @for (p of projects; track p.title) {
+    <app-project-card [title]="p.title" [description]="p.desc" [image]="p.img" />
+  }
 </div>

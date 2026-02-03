@@ -16,6 +16,13 @@
   border-radius: 50%;
   border: solid white 1px;
   background-color: #3355ff;
+
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+
+  &.is-de {
+    transform: translateX(20px);
+  }
 }
 
 .content {
@@ -97,6 +104,10 @@
     top: -9px;
     left: -2px;
     border-width: 2px;
+  }
+
+  .slider.is-de {
+    transform: translateX(34px);
   }
 
   .animation-container::before {

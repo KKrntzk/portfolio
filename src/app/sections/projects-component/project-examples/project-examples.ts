@@ -4,12 +4,10 @@ import { ProjectCard } from '../project-card/project-card';
 
 import { CommonModule } from '@angular/common';
 
-import { TranslatePipe } from '@ngx-translate/core';
-
 @Component({
   selector: 'app-project-examples',
 
-  imports: [ProjectCard, CommonModule, TranslatePipe],
+  imports: [ProjectCard, CommonModule],
 
   templateUrl: './project-examples.html',
 
@@ -22,12 +20,12 @@ export class ProjectExamples {
 
       img: '/img/projects/Pollo.png',
 
-      desc: 'Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.',
+      desc: 'projects.projectDescriptions.polloLoco.desc',
     },
     {
       title: 'Join',
       img: '/img/projects/join.png',
-      desc: 'Task manager inspired by the Kanban System. Create and organise tasks using drag and drop functions, assign users and categories.',
+      desc: 'projects.projectDescriptions.join.desc',
     },
   ];
 }
