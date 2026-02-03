@@ -52,12 +52,13 @@ img {
     gap: 25px;
     width: 100%;
     min-height: auto;
-    padding: 20px 0;
+    padding-top: 0;
+    padding-bottom: 70px;
   }
 
   .img-border {
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     border-color: #f8f9fa;
   }
 }

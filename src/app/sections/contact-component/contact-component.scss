@@ -6,7 +6,9 @@
 }
 
 .content {
-  height: 900px;
+  min-height: 900px;
+  height: auto;
+  position: relative;
   background-image: url('/img/background/06_Contact1.png');
   max-width: 1920px;
   width: 100%;
@@ -17,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 120px;
 }
 
 .inner-container {
@@ -38,20 +41,10 @@ app-contact-form {
   justify-content: end;
 }
 
-app-footer {
-  height: 80px;
-  display: flex;
-  justify-content: center;
-
-  width: 100%;
-  margin-top: auto;
-}
-
 @media (max-width: 800px) {
   .content {
-    height: auto;
     min-height: 100vh;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .inner-container {
