@@ -4,12 +4,12 @@ nav {
 
 .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
+  row-gap: 20px;
 }
-
 p {
   color: #f8f9fa;
 }
@@ -90,32 +90,31 @@ p {
 
 .links-container {
   display: flex;
-  gap: 10px;
+  justify-content: space-evenly;
+  flex: 1;
+  gap: 20px;
 }
 
-@media (max-width: 720px) {
-  .content {
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 15px;
-  }
+.legal-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
 
-  .animation-container {
-    order: 1;
-    width: auto;
-    text-align: right;
+@media (max-width: 700px) {
+  .content {
+    flex-direction: column;
+    gap: 30px;
   }
 
   .links-container {
-    order: 2;
+    justify-content: center;
     width: 100%;
-    justify-content: space-between;
-    margin-top: 10px;
   }
 
-  .btn {
-    flex: 1;
-    max-width: none;
-    min-width: 100px;
+  .legal-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }

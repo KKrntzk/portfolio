@@ -98,7 +98,7 @@ p {
   }
 
   .preview-container {
-    display: block;
+    display: contents;
 
     &::after {
       display: none;

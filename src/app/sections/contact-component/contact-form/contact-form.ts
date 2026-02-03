@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, inject } from '@angular/core';
 import { FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
 
 import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
@@ -29,7 +30,39 @@ export class ContactForm {
     privacy: new FormControl(false, [Validators.requiredTrue]),
   });
 
+  post = {
+    endPoint: 'https://sophie.kornetzki@gmail.com/sendMail.php',
+    body: (payload: any) => JSON.stringify(payload),
+    options: {
+      headers: {
+        'Content-Type': 'text/plain',
+        responseType: 'text',
+      },
+    },
+  };
+
+  contactData = {
+    name: '',
+    email: '',
+    message: '',
+  };
+
+  mailTest: Boolean = true;
+
+  http = inject(HttpClient);
+
   onSubmit() {
-    console.log('Formular erfolgreich gesendet:', this.contactForm.value);
+    if (this.contactForm.valid && !this.mailTest) {
+      this.http.post(this.post.endPoint, this.post.body(this.contactData)).subscribe({
+        next: (response) => {
+          this.contactForm.reset();
+        },
+        error: (error) => {
+          console.error(error);
+        },
+      });
+    } else if (this.contactForm.valid && this.mailTest) {
+      this.contactForm.reset();
+    }
   }
 }

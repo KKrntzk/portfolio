@@ -133,6 +133,10 @@ label {
   color: #f7c518;
 }
 
+.line-container {
+  display: none;
+}
+
 .send-button {
   color: #f8f9fa;
   border: 2px solid #f8f9fa;
@@ -189,6 +193,44 @@ label {
   .contact-form,
   .agreement-checkbox {
     width: 100%;
+  }
+
+  .button-line-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .animation-container {
+    display: block;
+    width: 200px;
+    height: auto;
+    clip-path: inset(0 100% 0 0);
+    animation: revealAndHide 3.5s ease-in-out infinite;
+  }
+
+  @keyframes revealAndHide {
+    0% {
+      clip-path: inset(0 100% 0 0);
+    }
+    30%,
+    50% {
+      clip-path: inset(0 0 0 0);
+    }
+    80%,
+    100% {
+      clip-path: inset(0 0 0 100%);
+    }
+  }
+
+  .line-container {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media (max-width: 450px) {
+  .animation-container {
+    width: 100px;
   }
 }
 

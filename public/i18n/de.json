@@ -33,10 +33,10 @@
     "description": "Ich lade dich ein, mit diesen Projekten zu interagieren, um meinen Ansatz für das moderne Web zu sehen – hier lege ich Wert auf effizienten, schlanken Code, um Interfaces zu bauen, die ebenso responsiv wie intuitiv sind. Für mich geht es bei einem großartigen Projekt nicht nur um das Aussehen, sondern darum, wie mühelos es sich bewegt und auf den Nutzer reagiert. Ich lerne ständig dazu und verfeinere meine Prozesse. Erkunde gerne meine Builds und sieh selbst, wie ich die Lücke zwischen komplexem Code und einer nahtlosen User Journey schließe.",
     "projectDescriptions": {
       "polloLoco": {
-        "desc": "Ein Jump-and-Run-Spiel, basierend auf einem objektorientierten Ansatz..."
+        "desc": "Spring-, Lauf- und Wurfspiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen."
       },
       "join": {
-        "desc": "Ein vom Kanban-System inspirierter Aufgaben-Manager..."
+        "desc": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer zu und legen Sie Kategorien fest."
       }
     }
   },
