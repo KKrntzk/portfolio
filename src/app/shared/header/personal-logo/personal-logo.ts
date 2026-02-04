@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-personal-logo',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './personal-logo.html',
   styleUrl: './personal-logo.scss',
 })
