@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class Buttons {
   openGithub() {
-    window.open('https://github.com/KKrntzk', '_blank');
+    window.open('https://github.com/KKrntzk/el-pollo-loco', '_blank');
   }
 }
