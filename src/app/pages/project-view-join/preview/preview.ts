@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './preview.html',
   styleUrl: './preview.scss',
 })
-export class Preview {}
+export class Preview {
+
+}

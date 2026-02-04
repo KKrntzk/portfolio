@@ -24,5 +24,22 @@
 .left-col {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
+  padding-left: 120px;
+}
+
+app-description {
+  width: 70%;
+}
+
+.right-col {
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+
+app-buttons {
+  display: flex;
+  justify-content: end;
 }
