@@ -38,6 +38,15 @@
       "join": {
         "desc": "Task manager inspired by the Kanban System. Create and organise tasks using drag and drop functions, assign users and categories."
       }
+    },
+    "projectPage": {
+      "descTitle": "Description",
+      "implTitle": "Implementation Details",
+      "implDetailsJoin": "asdada",
+      "implDetailsPollo": "asdada",
+      "time": "Duration:",
+      "timeUsedJoin": "5 weeks",
+      "timeUsedPollo": "3 weeks"
     }
   },
   "testimonials": {

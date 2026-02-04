@@ -38,6 +38,15 @@
       "join": {
         "desc": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer zu und legen Sie Kategorien fest."
       }
+    },
+    "projectPage": {
+      "descTitle": "Beschreibung",
+      "implTitle": "Technische Details",
+      "implDetailsJoin": "asdada",
+      "implDetailsPollo": "asdada",
+      "time": "Zeitaufwand:",
+      "timeUsedJoin": "5 Wochen",
+      "timeUsedPollo": "3 Wochen"
     }
   },
   "testimonials": {
