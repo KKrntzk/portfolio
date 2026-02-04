@@ -32,10 +32,6 @@
   gap: 6px;
 }
 
-.en-span {
-  color: #f87a55;
-}
-
 .language-btn {
   background: transparent;
   border: none;
@@ -86,12 +82,6 @@
     font-size: 24px;
   }
 
-  .en-span,
-  .de-span,
-  .content {
-    color: #f8f9fa;
-  }
-
   .switch-btn {
     width: 60px;
     height: 12px;
@@ -123,5 +113,26 @@
   :host-context(:not(.mobile-menu)) .content {
     transform: scale(0.85);
     gap: 4px;
+  }
+}
+
+.en-span,
+.de-span {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.is-active {
+  color: #f87a55;
+}
+
+:host-context(.mobile-menu) {
+  .en-span,
+  .de-span {
+    color: #f8f9fa;
+  }
+
+  .is-active {
+    color: #f87a55;
   }
 }
