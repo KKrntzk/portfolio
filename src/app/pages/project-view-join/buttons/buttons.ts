@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './buttons.scss',
 })
 export class Buttons {
-
+  openGithub() {
+    window.open('https://github.com/KKrntzk', '_blank');
+  }
 }
