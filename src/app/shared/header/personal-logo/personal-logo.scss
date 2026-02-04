@@ -5,6 +5,7 @@ $orange: #f87a55;
   height: 60px;
   width: auto;
   cursor: pointer;
+  z-index: 100;
 
   path {
     transition: fill 0.4s ease-in-out;

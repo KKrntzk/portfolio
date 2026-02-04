@@ -1,14 +1,16 @@
 :host {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: -100px;
+  margin-bottom: -100px;
+  position: relative;
+  z-index: 5;
+  width: 100%;
 }
 
 nav {
   width: 90%;
+  padding-bottom: 20px;
 }
 
 .content {
@@ -111,6 +113,10 @@ p {
 }
 
 @media (max-width: 700px) {
+  :host {
+    margin-top: -140px;
+    margin-bottom: -140px;
+  }
   .content {
     flex-direction: column;
     gap: 30px;

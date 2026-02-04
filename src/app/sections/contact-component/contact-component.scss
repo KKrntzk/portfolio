@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 120px;
+  padding-bottom: 250px;
 }
 
 .inner-container {
@@ -44,7 +44,7 @@ app-contact-form {
 @media (max-width: 800px) {
   .content {
     min-height: 100vh;
-    padding-bottom: 20px;
+    padding-bottom: 120px;
   }
 
   .inner-container {
