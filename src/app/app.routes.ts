@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { ProjectViewElpolloloco } from './pages/project-view-elpolloloco/project-view-elpolloloco';
-import { ProjectViewJoin } from './sections/project-view-join/project-view-join';
 import { Home } from './pages/home/home';
+import { ProjectViewJoin } from './pages/project-view-join/project-view-join';
 
 export const routes: Routes = [
   { path: '', component: Home },

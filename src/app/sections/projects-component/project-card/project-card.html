@@ -2,12 +2,9 @@
   <div class="preview-container">
     <div class="preview-image" [style.backgroundImage]="'url(' + image + ')'"></div>
 
-    <button [routerLink]="'project-view-elpolloloco'" class="preview-button">
-      Project details
-    </button>
+    <button [routerLink]="link" class="preview-button">Project details</button>
   </div>
 
   <h3>{{ title | translate }}</h3>
-
   <p>{{ description | translate }}</p>
 </div>

@@ -17,15 +17,15 @@ export class ProjectExamples {
   projects = [
     {
       title: 'El Pollo Loco',
-
       img: '/img/projects/Pollo.png',
-
       desc: 'projects.projectDescriptions.polloLoco.desc',
+      link: 'project-view-elpolloloco',
     },
     {
       title: 'Join',
       img: '/img/projects/join.png',
       desc: 'projects.projectDescriptions.join.desc',
+      link: 'project-view-join',
     },
   ];
 }
