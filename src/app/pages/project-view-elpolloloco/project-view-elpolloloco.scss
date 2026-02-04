@@ -43,3 +43,12 @@ app-buttons {
   display: flex;
   justify-content: end;
 }
+
+.outer-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-layout {
+  display: flex;
+}
