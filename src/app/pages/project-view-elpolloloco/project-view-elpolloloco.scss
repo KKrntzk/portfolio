@@ -9,7 +9,7 @@
   max-width: 1920px;
   margin: 0 auto;
   background-image: url('/img/background/noteBookPaper.png');
-  background-color: black;
+  background-color: #0e1013;
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -19,4 +19,10 @@
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
 }

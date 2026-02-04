@@ -1,0 +1,16 @@
+h3 {
+  font-size: clamp(20px, 1.25vw, 24px);
+  color: #0e1013;
+  padding: 20px 0px;
+  font-weight: bold;
+}
+
+img {
+  width: 40px;
+}
+
+.skill-tree {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
