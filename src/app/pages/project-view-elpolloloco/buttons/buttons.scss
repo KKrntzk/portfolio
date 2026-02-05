@@ -11,16 +11,16 @@
   transition:
     transform 0.12s cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 0.12s cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.btn:active {
-  transform: translate(3px, 3px);
-  box-shadow: 0 0 0 #f8f9fa;
-  background-color: #f87a55;
-}
+  &:hover {
+    background-color: #f87a55;
+  }
 
-.btn:hover {
-  background-color: #f87a55;
+  &:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0 0 0 #f8f9fa;
+    background-color: #f87a55;
+  }
 }
 
 .content {
