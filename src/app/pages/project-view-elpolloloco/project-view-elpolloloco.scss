@@ -1,11 +1,66 @@
+// :host {
+//   display: block;
+//   width: 100%;
+// }
+
+// .content {
+//   height: 100vh;
+//   width: 100%;
+//   max-width: 1920px;
+//   margin: 0 auto;
+//   background-image: url('/img/background/noteBookPaper.png');
+//   background-color: #0e1013;
+//   background-size: cover;
+//   background-position: bottom center;
+//   background-repeat: no-repeat;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   position: relative;
+//   overflow: hidden;
+//   box-sizing: border-box;
+// }
+
+// .left-col {
+//   display: flex;
+//   flex-direction: column;
+//   padding-left: 120px;
+// }
+
+// app-description {
+//   width: 70%;
+// }
+
+// .right-col {
+//   padding-right: 120px;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 50px;
+//   justify-content: center;
+// }
+
+// app-buttons {
+//   display: flex;
+//   justify-content: end;
+// }
+
+// .outer-layout {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .inner-layout {
+//   display: flex;
+// }
 :host {
   display: block;
   width: 100%;
 }
 
 .content {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
+
   max-width: 1920px;
   margin: 0 auto;
   background-image: url('/img/background/noteBookPaper.png');
@@ -25,18 +80,21 @@
   display: flex;
   flex-direction: column;
   padding-left: 120px;
+  width: 100%;
+  max-width: 700px;
 }
 
 app-description {
-  width: 70%;
+  width: 80%;
 }
 
 .right-col {
-  padding-right: 120px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  padding-right: 120px;
   justify-content: center;
+  align-items: flex-end;
+  gap: 60px;
 }
 
 app-buttons {
@@ -47,8 +105,104 @@ app-buttons {
 .outer-layout {
   display: flex;
   flex-direction: column;
+  height: calc(100vh - 120px);
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px 0;
+  box-sizing: border-box;
 }
 
 .inner-layout {
   display: flex;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.outer-layout > div:first-child {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 60px;
+}
+
+.outer-layout > div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+@media (max-width: 1000px) {
+  :host {
+    display: block;
+  }
+  .content {
+    overflow: visible;
+    padding-top: 80px;
+    display: block;
+    height: auto;
+    background-image: url('/img/background/noteBookPaper2.png');
+    background-position: center;
+  }
+
+  .outer-layout {
+    height: auto;
+    min-height: unset;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .outer-layout > div:first-child {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+  }
+
+  .outer-layout > div:last-child {
+    margin-top: auto;
+    padding-bottom: 40px;
+    padding-right: 40px;
+  }
+
+  .content {
+    overflow-y: auto;
+    display: block;
+  }
+
+  .inner-layout {
+    flex-direction: column;
+    gap: 40px;
+    overflow-y: visible;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .left-col,
+  .right-col {
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-col {
+    gap: 20px;
+  }
+
+  app-preview,
+  app-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  app-description {
+    width: 100%;
+  }
 }
