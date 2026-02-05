@@ -14,11 +14,18 @@
   background-position: bottom center;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
+  padding-left: 120px;
+}
+
+.text {
+  width: 70%;
+  color: #ffffff;
+  mix-blend-mode: difference;
 }
 
 @media (max-width: 1000px) {
@@ -27,7 +34,8 @@
   }
   .content {
     overflow: visible;
-    padding-top: 80px;
+    padding-top: 220px;
+    padding-left: 40px;
     display: block;
     height: auto;
     background-image: url('/img/background/noteBookPaper2.png');
