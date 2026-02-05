@@ -4,6 +4,7 @@ import { FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angula
 
 import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
+import { RouterLink } from '@angular/router';
 
 export function emailDomainValidator(): ValidatorFn {
   return (control: AbstractControl): ValidationErrors | null => {
@@ -18,7 +19,7 @@ export function emailDomainValidator(): ValidatorFn {
 
 @Component({
   selector: 'app-contact-form',
-  imports: [ReactiveFormsModule, TranslatePipe],
+  imports: [ReactiveFormsModule, TranslatePipe, RouterLink],
   templateUrl: './contact-form.html',
   styleUrl: './contact-form.scss',
 })

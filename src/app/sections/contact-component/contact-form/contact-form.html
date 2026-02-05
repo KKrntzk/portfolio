@@ -47,7 +47,9 @@
       <input type="checkbox" id="privacy" formControlName="privacy" />
       <label class="policy-text" for="privacy">
         {{ 'form.privacy.textBefore' | translate }}
-        <span class="highlight-text">{{ 'form.privacy.link' | translate }}</span>
+        <span class="highlight-text" [routerLink]="['/privacy-policy']">{{
+          'form.privacy.link' | translate
+        }}</span>
         {{ 'form.privacy.textAfter' | translate }}
       </label>
 

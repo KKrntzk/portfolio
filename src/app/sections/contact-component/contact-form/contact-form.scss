@@ -121,6 +121,8 @@ label {
 .highlight-text {
   color: #3355ff;
   transition: color 0.3s ease;
+  cursor: pointer;
+  z-index: 20;
 }
 
 .highlight-text:hover {
