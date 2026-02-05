@@ -81,5 +81,21 @@
       "textAfter": " and agree to the processing of my data as outlined.",
       "error": "Please accept the privacy policy."
     }
+  },
+  "legal": {
+    "imprintTitle": "Imprint",
+    "privacyTitle": "Privacy Policy",
+    "sectionLaw": "Information according to § 5 DDG",
+    "representedBy": "Represented by:",
+    "contact": "Contact:",
+    "phone": "Phone:",
+    "disputeTitle": "Consumer Dispute Resolution / Universal Arbitration Board",
+    "disputeText": "We do not participate in dispute resolution proceedings before a consumer arbitration board and are not obliged to do so.",
+    "backToSite": "Back to site",
+    "generator": {
+      "text1": "Created with",
+      "text2": ", the tool for imprints and",
+      "text3": ". Based on a template by"
+    }
   }
 }

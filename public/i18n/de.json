@@ -81,5 +81,21 @@
       "textAfter": " gelesen und erkläre mich mit der darin beschriebenen Verarbeitung meiner Daten einverstanden.",
       "error": "Bitte akzeptiere die Datenschutzerklärung."
     }
+  },
+  "legal": {
+    "imprintTitle": "Impressum",
+    "privacyTitle": "Datenschutzerklärung",
+    "sectionLaw": "Angaben gemäß § 5 DDG",
+    "representedBy": "Vertreten durch:",
+    "contact": "Kontakt:",
+    "phone": "Telefon:",
+    "disputeTitle": "Verbraucherstreitbeilegung / Universalschlichtungsstelle",
+    "disputeText": "Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind dazu auch nicht verpflichtet.",
+    "backToSite": "Zurück zur Seite",
+    "generator": {
+      "text1": "Erstellt mit",
+      "text2": ", dem Tool für Impressum und",
+      "text3": ". Nach einer Vorlage der"
+    }
   }
 }

@@ -1,41 +1,52 @@
 <div class="content">
   <div class="text">
-    <h2>Impressum</h2>
+    <h2>{{ 'legal.imprintTitle' | translate }}</h2>
     <br />
-    <p>Angaben gemäß § 5 DDG</p>
+
+    <p>{{ 'legal.sectionLaw' | translate }}</p>
+
     <p>
       Kelly Kornetzki<br />
       <br />
       In der Hut 10a<br />
       91083 Baiersdorf <br />
     </p>
+
     <p>
       <br />
-      <strong>Vertreten durch: </strong>
+      <strong>{{ 'legal.representedBy' | translate }}</strong>
       <br />
       <br />
       Kelly Kornetzki
     </p>
+
     <br />
+
     <p>
-      <strong>Kontakt:</strong> <br />
+      <strong>{{ 'legal.contact' | translate }}</strong> <br />
       <br />
-      Telefon: 0170-7250598<br />
-      E-Mail: <a>sophie.kornetzki@gmail.com</a>
+      {{ 'legal.phone' | translate }} 0170-7250598<br />
+      E-Mail: <a href="mailto:sophie.kornetzki@gmail.com">sophie.kornetzki@gmail.com</a>
     </p>
+
     <br />
+
     <p>
-      <strong>Verbraucherstreitbeilegung / Universalschlichtungsstelle</strong><br />
-      <br />Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
-      teil und sind dazu auch nicht verpflichtet.
+      <strong>{{ 'legal.disputeTitle' | translate }}</strong
+      ><br />
+      <br />
+      {{ 'legal.disputeText' | translate }}
     </p>
+
+    <br />
+
     <p>
-      Erstellt mit
-      <a href="https://impressum-generator.de" rel="dofollow">Impressum-Generator.de</a>, dem Tool
-      für Impressum und
-      <a href="https://impressum-generator.de/datenschutz-generator" rel="dofollow"
-        >Datenschutz-Erklärung</a
-      >. Nach einer Vorlage der
+      {{ 'legal.generator.text1' | translate }}
+      <a href="https://impressum-generator.de" rel="dofollow">Impressum-Generator.de</a
+      >{{ 'legal.generator.text2' | translate }}
+      <a href="https://impressum-generator.de/datenschutz-generator" rel="dofollow">
+        {{ 'legal.privacyTitle' | translate }} </a
+      >{{ 'legal.generator.text3' | translate }}
       <a href="https://www.kanzlei-hasselbach.de/" rel="dofollow">Kanzlei Hasselbach</a>.
     </p>
   </div>
