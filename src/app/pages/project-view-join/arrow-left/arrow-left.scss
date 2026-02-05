@@ -18,3 +18,9 @@ h3 {
 img {
   width: 50px;
 }
+
+@media (max-width: 1000px) {
+  .content {
+    padding-bottom: 0;
+  }
+}
