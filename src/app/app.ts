@@ -1,8 +1,8 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { Home } from './pages/home/home';
+import { Component, signal, inject } from '@angular/core';
+import { RouterOutlet, Router, NavigationEnd } from '@angular/router';
 import { Footer } from './shared/footer/footer';
 import { Header } from './shared/header/header';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -12,4 +12,17 @@ import { Header } from './shared/header/header';
 })
 export class App {
   protected readonly title = signal('portfolio');
+
+  protected showFooter = signal(true);
+
+  private router = inject(Router);
+
+  constructor() {
+    this.router.events
+      .pipe(filter((event) => event instanceof NavigationEnd))
+      .subscribe((event: any) => {
+        const isProjectView = event.url.includes('project');
+        this.showFooter.set(!isProjectView);
+      });
+  }
 }

@@ -1,3 +1,15 @@
 img {
   border-radius: 25px;
 }
+
+@media (max-width: 1250px) {
+  img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  img {
+    width: 400px;
+  }
+}
