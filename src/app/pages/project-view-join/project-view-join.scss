@@ -40,6 +40,7 @@ app-description {
   padding-right: 120px;
   justify-content: center;
   align-items: flex-end;
+  gap: 60px;
 }
 
 app-buttons {
@@ -50,7 +51,7 @@ app-buttons {
 .outer-layout {
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: calc(100vh - 120px);
   width: 100%;
   justify-content: space-between;
   padding: 40px 0;
@@ -87,6 +88,8 @@ app-buttons {
     padding-top: 80px;
     display: block;
     height: auto;
+    background-image: url('/img/background/noteBookPaper2.png');
+    background-position: center;
   }
 
   .outer-layout {
@@ -94,6 +97,9 @@ app-buttons {
     min-height: unset;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    gap: 20px;
   }
 
   .outer-layout > div:first-child {
@@ -112,13 +118,6 @@ app-buttons {
   .content {
     overflow-y: auto;
     display: block;
-  }
-
-  .outer-layout {
-    height: auto;
-    min-height: 100vh;
-    justify-content: flex-start;
-    gap: 40px;
   }
 
   .inner-layout {
