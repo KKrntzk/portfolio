@@ -48,18 +48,24 @@ export class ContactForm {
     message: '',
   };
 
-  mailTest: Boolean = true;
+  mailTest: Boolean = false;
 
   http = inject(HttpClient);
 
   onSubmit() {
     if (this.contactForm.valid && !this.mailTest) {
-      this.http.post(this.post.endPoint, this.post.body(this.contactData)).subscribe({
-        next: (response) => {
+      const contactData = {
+        name: this.contactForm.value.name,
+        email: this.contactForm.value.email,
+        message: this.contactForm.value.message,
+      };
+
+      this.http.post(this.post.endPoint, contactData, this.post.options).subscribe({
+        next: () => {
           this.contactForm.reset();
         },
         error: (error) => {
-          console.error(error);
+          console.error('Fehler beim Senden:', error);
         },
       });
     } else if (this.contactForm.valid && this.mailTest) {

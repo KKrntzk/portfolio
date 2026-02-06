@@ -33,10 +33,18 @@ export class App {
   constructor(private consoleHello: ConsoleHelloService) {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
-      .subscribe((event: any) => {
-        const isProjectView = event.url.includes('project');
-        this.showFooter.set(!isProjectView);
+      .subscribe((event: NavigationEnd) => {
+        // Liste der Pfade, die den Footer ausblenden sollen
+        const hiddenFooterRoutes = ['project', 'legal', 'privacy'];
+
+        // Prüfen, ob die aktuelle URL eines der oben genannten Wörter enthält
+        const isHiddenRoute = hiddenFooterRoutes.some((route) =>
+          event.urlAfterRedirects.includes(route),
+        );
+
+        this.showFooter.set(!isHiddenRoute);
       });
+
     this.consoleHello.printWelcome();
   }
 }
