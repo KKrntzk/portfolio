@@ -32,7 +32,7 @@ export class ContactForm {
   });
 
   post = {
-    endPoint: 'https://sophie.kornetzki@gmail.com/sendMail.php',
+    endPoint: 'https://kelly-kornetzki.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {

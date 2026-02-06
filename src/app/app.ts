@@ -3,6 +3,19 @@ import { RouterOutlet, Router, NavigationEnd } from '@angular/router';
 import { Footer } from './shared/footer/footer';
 import { Header } from './shared/header/header';
 import { filter } from 'rxjs/operators';
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class ConsoleHelloService {
+  printWelcome() {
+    console.log(
+      '%cHello Dev! Welcome to my portfolio, feel free to roam around and explore my code ⭐',
+      'color: #f8f9fa;; font-size: 18px;',
+    );
+  }
+}
 
 @Component({
   selector: 'app-root',
@@ -17,12 +30,13 @@ export class App {
 
   private router = inject(Router);
 
-  constructor() {
+  constructor(private consoleHello: ConsoleHelloService) {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {
         const isProjectView = event.url.includes('project');
         this.showFooter.set(!isProjectView);
       });
+    this.consoleHello.printWelcome();
   }
 }
