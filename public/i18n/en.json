@@ -205,25 +205,25 @@
       "encryption": {
         "h3": "SSL or TLS encryption",
         "p": "This website uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content, such as orders or inquiries that you send to us as the website operator. You can recognize an encrypted connection by the browser address bar changing from “http://” to “https://” and by the lock symbol in your browser bar."
-      },
-      "section4": {
-        "h2": "4. Data collection on this website",
-        "contactForm": {
-          "h3": "Contact form",
-          "p1": "If you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not pass on this data without your consent.",
-          "p2": "The processing of this data is based on Art. 6(1)(b) GDPR if your inquiry is related to the performance of a contract or is necessary for pre-contractual measures. In all other cases, processing is based on our legitimate interest in the effective processing of inquiries addressed to us (Art. 6(1)(f) GDPR) or on your consent (Art. 6(1)(a) GDPR) if this has been requested; consent can be revoked at any time.",
-          "p3": "The data you enter in the contact form will remain with us until you request its deletion, revoke your consent to storage, or the purpose for storing the data no longer applies (e.g. after your inquiry has been processed). Mandatory statutory provisions – in particular retention periods – remain unaffected."
-        }
-      },
-      "section5": {
-        "contactRequest": {
-          "h3": "Inquiry by email, telephone or fax",
-          "p1": "If you contact us by email, telephone or fax, your inquiry including all resulting personal data (name, inquiry) will be stored and processed by us for the purpose of handling your request. We do not pass on this data without your consent.",
-          "p2": "The processing of this data is based on Art. 6(1)(b) GDPR if your inquiry is related to the performance of a contract or is necessary for pre-contractual measures. In all other cases, processing is based on our legitimate interest in the effective handling of inquiries addressed to us (Art. 6(1)(f) GDPR) or on your consent (Art. 6(1)(a) GDPR) if this has been requested; consent can be revoked at any time.",
-          "p3": "The data you send to us via contact inquiries will remain with us until you request deletion, revoke your consent to storage, or the purpose for data storage no longer applies (e.g. after your request has been fully processed). Mandatory statutory provisions – in particular statutory retention periods – remain unaffected.",
-          "p4": "Source:",
-          "sourceUrl": "https://www.e-recht24.de"
-        }
+      }
+    },
+    "section4": {
+      "h2": "4. Data collection on this website",
+      "contactForm": {
+        "h3": "Contact form",
+        "p1": "If you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not pass on this data without your consent.",
+        "p2": "The processing of this data is based on Art. 6(1)(b) GDPR if your inquiry is related to the performance of a contract or is necessary for pre-contractual measures. In all other cases, processing is based on our legitimate interest in the effective processing of inquiries addressed to us (Art. 6(1)(f) GDPR) or on your consent (Art. 6(1)(a) GDPR) if this has been requested; consent can be revoked at any time.",
+        "p3": "The data you enter in the contact form will remain with us until you request its deletion, revoke your consent to storage, or the purpose for storing the data no longer applies (e.g. after your inquiry has been processed). Mandatory statutory provisions – in particular retention periods – remain unaffected."
+      }
+    },
+    "section5": {
+      "contactRequest": {
+        "h3": "Inquiry by email, telephone or fax",
+        "p1": "If you contact us by email, telephone or fax, your inquiry including all resulting personal data (name, inquiry) will be stored and processed by us for the purpose of handling your request. We do not pass on this data without your consent.",
+        "p2": "The processing of this data is based on Art. 6(1)(b) GDPR if your inquiry is related to the performance of a contract or is necessary for pre-contractual measures. In all other cases, processing is based on our legitimate interest in the effective handling of inquiries addressed to us (Art. 6(1)(f) GDPR) or on your consent (Art. 6(1)(a) GDPR) if this has been requested; consent can be revoked at any time.",
+        "p3": "The data you send to us via contact inquiries will remain with us until you request deletion, revoke your consent to storage, or the purpose for data storage no longer applies (e.g. after your request has been fully processed). Mandatory statutory provisions – in particular statutory retention periods – remain unaffected.",
+        "p4": "Source:",
+        "sourceUrl": "https://www.e-recht24.de"
       }
     }
   }
