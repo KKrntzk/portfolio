@@ -34,10 +34,8 @@ export class App {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
-        // Liste der Pfade, die den Footer ausblenden sollen
         const hiddenFooterRoutes = ['project', 'legal', 'privacy'];
 
-        // Prüfen, ob die aktuelle URL eines der oben genannten Wörter enthält
         const isHiddenRoute = hiddenFooterRoutes.some((route) =>
           event.urlAfterRedirects.includes(route),
         );
