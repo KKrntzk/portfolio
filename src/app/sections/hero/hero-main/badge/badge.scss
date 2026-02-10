@@ -124,15 +124,15 @@
 
 @media (max-width: 720px) {
   .content {
-    animation: buttonLoop 4s ease-in-out infinite;
+    animation: buttonLoop 5s ease-in-out infinite;
   }
 
   .content .button-text {
-    animation: textFade 4s ease-in-out infinite;
+    animation: textFade 5s ease-in-out infinite;
   }
 
   .hand-icon {
-    animation: handMove 4s ease-in-out infinite;
+    animation: handMove 5s ease-in-out infinite;
   }
 
   .content::after {
@@ -143,7 +143,7 @@
     transform: translate(-50%, -50%);
     white-space: nowrap;
     opacity: 0;
-    animation: textFadeIn 4s ease-in-out infinite;
+    animation: textFadeIn 5s ease-in-out infinite;
   }
 }
 

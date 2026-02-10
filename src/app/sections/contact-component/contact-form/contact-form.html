@@ -1,4 +1,4 @@
-<div class="content">
+<!-- <div class="content">
   <form class="contact-form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="input-group">
       <div class="separator"></div>
@@ -62,6 +62,91 @@
         <img class="animation-container" src="/img/00_Hand-drawn-lines/05_Contact/1.png" alt="" />
       </div>
 
+      <div class="button-container">
+        <button type="submit" class="send-button" [disabled]="contactForm.invalid">send</button>
+      </div>
+    </div>
+  </form>
+</div> -->
+
+<div class="content">
+  <form class="contact-form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <div class="input-group">
+      <div class="separator"></div>
+      <label>{{ 'form.name.label' | translate }}</label>
+      <input
+        type="text"
+        placeholder="{{ 'form.name.placeholder' | translate }}"
+        formControlName="name"
+      />
+      <span
+        class="error-text"
+        [class.visible]="contactForm.controls.name.invalid && contactForm.controls.name.touched"
+      >
+        {{ 'form.name.error' | translate }}
+      </span>
+    </div>
+
+    <div class="input-group">
+      <div class="separator"></div>
+      <label>{{ 'form.email.label' | translate }}</label>
+      <input
+        type="email"
+        placeholder="{{ 'form.email.placeholder' | translate }}"
+        formControlName="email"
+      />
+      <span
+        class="error-text"
+        [class.visible]="contactForm.controls.email.invalid && contactForm.controls.email.touched"
+      >
+        {{ 'form.email.error' | translate }}
+      </span>
+    </div>
+
+    <div class="input-group">
+      <div class="separator"></div>
+      <label>{{ 'form.message.label' | translate }}</label>
+      <textarea
+        placeholder="{{ 'form.message.placeholder' | translate }}"
+        formControlName="message"
+      ></textarea>
+      <span
+        class="error-text"
+        [class.visible]="
+          contactForm.controls.message.invalid && contactForm.controls.message.touched
+        "
+      >
+        {{ 'form.message.error' | translate }}
+      </span>
+    </div>
+
+    <div class="separator last-line"></div>
+
+    <div class="agreement-wrapper">
+      <div class="agreement-checkbox">
+        <input type="checkbox" id="privacy" formControlName="privacy" />
+        <label class="policy-text" for="privacy">
+          {{ 'form.privacy.textBefore' | translate }}
+          <span class="highlight-text" [routerLink]="['/privacy-policy']">
+            {{ 'form.privacy.link' | translate }}
+          </span>
+          {{ 'form.privacy.textAfter' | translate }}
+        </label>
+      </div>
+      <div
+        class="error-text"
+        [class.visible]="
+          contactForm.controls.privacy.invalid && contactForm.controls.privacy.touched
+        "
+      >
+        {{ 'form.privacy.error' | translate }}
+      </div>
+    </div>
+
+    <div class="button-line-container">
+      <div class="line-container">
+        <img class="animation-container" src="/img/00_Hand-drawn-lines/05_Contact/1.png" alt="" />
+      </div>
       <div class="button-container">
         <button type="submit" class="send-button" [disabled]="contactForm.invalid">send</button>
       </div>

@@ -8,7 +8,7 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  background-image: url('/img/background/noteBookPaper.png');
+
   background-color: #0e1013;
   background-size: cover;
   background-position: bottom center;
@@ -40,8 +40,8 @@
     padding-left: 40px;
     display: block;
     height: auto;
-    background-image: url('/img/background/noteBookPaper2.png');
-    background-position: center;
+    // background-image: url('/img/background/noteBookPaper2.png');
+    // background-position: center;
     overflow-y: auto;
   }
 }
