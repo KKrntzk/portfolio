@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.title-fix-container {
+  width: clamp(200px, 45vw, 480px);
+  display: flex;
+  flex-shrink: 0;
+  min-width: max-content;
+}
+
 .content {
   color: white;
   width: 90%;
@@ -15,8 +22,20 @@
   padding-top: 40px;
 }
 
+.title {
+  width: 100%;
+  display: flex;
+  contain: layout;
+}
+
+.innermost-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: auto;
+}
+
 .badge,
-.title,
 .title2 {
   width: 100%;
   max-width: 600px;
@@ -29,7 +48,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 870px;
+  max-width: 800px;
 }
 
 .title-2-container {
@@ -40,8 +59,8 @@
 
 .inner-container-with-profile {
   display: flex;
-  width: 100%;
-  gap: 5%;
+  width: auto;
+  gap: 80px;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;

@@ -1,19 +1,20 @@
 .content {
   display: flex;
   flex-wrap: nowrap;
-  letter-spacing: 1px;
   font-size: clamp(40px, 10vw, 120px);
   width: 100%;
   max-width: max-content;
   padding-top: 30px;
+  letter-spacing: -5px;
 }
 
 .content span {
   font-size: clamp(40px, 10vw, 120px);
   display: inline-block;
   transition: all 0.2s ease;
-  cursor: default;
   flex-shrink: 0;
+  width: 0.5em;
+  text-align: center;
 }
 
 .content span:hover {
