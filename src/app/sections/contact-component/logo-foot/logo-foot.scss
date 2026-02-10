@@ -1,0 +1,31 @@
+$blue: #3355ff;
+$orange: #f87a55;
+
+.logo {
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+  z-index: 100;
+
+  path {
+    transition: fill 0.4s ease-in-out;
+  }
+
+  path:first-child {
+    fill: $blue;
+  }
+  path:last-child {
+    fill: $orange;
+    transition-delay: 0.1s;
+  }
+
+  &:hover {
+    path:first-child {
+      fill: $orange;
+    }
+    path:last-child {
+      fill: $blue;
+      transition-delay: 0.15s;
+    }
+  }
+}
