@@ -12,6 +12,6 @@ export class Buttons {
   }
 
   openLiveTest(){
-    window.open('https://kelly-kornetzki.de/project/el-pollo-loco', '_blank')
+    window.open('https://kelly-kornetzki.de/project/elpolloloco', '_blank')
   }
 }
