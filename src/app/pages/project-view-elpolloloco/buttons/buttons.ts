@@ -10,4 +10,8 @@ export class Buttons {
   openGithub() {
     window.open('https://github.com/KKrntzk/el-pollo-loco', '_blank');
   }
+
+  openLiveTest(){
+    window.open('https://kelly-kornetzki.de/project/el-pollo-loco', '_blank')
+  }
 }
