@@ -42,7 +42,7 @@
     "projectPage": {
       "descTitle": "Description",
       "implTitle": "Implementation Details",
-      "implDetailsJoin": "Working in a team, I contributed to this project by developing modular components using Angular and TypeScript, ensuring seamless integration with Firebase for real-time data. I utilized Git for version control and followed agile workflows to maintain high code quality and effective collaboration. My focus was on transforming complex requirements into a performant, scalable frontend architecture.",
+      "implDetailsJoin": "Contributing to the team, I developed modular Angular and TypeScript components with Supabase for real-time data. I utilized Git and Agile workflows to transform complex requirements into a performant, scalable frontend architecture.",
       "implDetailsPollo": "As the sole developer for El Pollo Loco, I was responsible for the entire software development lifecycle—from the initial logic sketches to the final refactoring. My goal was to build a high-performance 2D jump-and-run game based exclusively on vanilla technologies.",
       "time": "Duration:",
       "timeUsedJoin": "5 weeks",
