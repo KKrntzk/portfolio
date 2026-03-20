@@ -21,6 +21,15 @@
   transform: scale(0.75);
 }
 
+.inner-content{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 @media (max-width: 1500px) {
   .content {
     width: 700px;
