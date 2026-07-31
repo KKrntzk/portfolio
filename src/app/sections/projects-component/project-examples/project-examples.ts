@@ -29,7 +29,7 @@ export class ProjectExamples {
     },
     {
       title: 'Coderr',
-      img: '/img/projects/join.png',
+      img: '/img/projects/coderr.png',
       desc: 'projects.projectDescriptions.coderr.desc',
       link: 'project-view-coderr',
     },

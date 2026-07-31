@@ -1,52 +1,64 @@
 <div class="sticker-container">
-
-    <div class="sticker-wrapper">
+  <div class="sticker-wrapper" [class.active]="activeSticker === 0" (click)="toggleSticker(0)">
     <img src="/img/03_Stickers/02_Testimonials/color1/A.png" class="main-img" />
     <img src="/img/03_Stickers/02_Testimonials/color1/Hover.png" class="overlay-img" />
     <div class="sticker-text">
-      {{'testimonials.nadine' | translate}}
+      {{ 'testimonials.nadine' | translate }}
     </div>
     <div class="sticker-info">
       <span class="name">Nadine Bauer</span>
       <span class="title">Fullstack Developer</span>
     </div>
-    <a href="https://www.linkedin.com/in/nadine-bauer-1615123b6/" target="_blank" rel="noopener noreferrer" class="sticker-link">
+    <a
+      href="https://www.linkedin.com/in/nadine-bauer-1615123b6/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sticker-link"
+    >
       <img src="/img/icons/linkedInIcon.png" alt="" class="link-icon" />
       <span>Profile</span>
     </a>
   </div>
 
-  <div class="sticker-wrapper">
+  <div class="sticker-wrapper" [class.active]="activeSticker === 1" (click)="toggleSticker(1)">
     <img src="/img/03_Stickers/02_Testimonials/color1/A.png" class="main-img" />
     <img src="/img/03_Stickers/02_Testimonials/color1/Hover.png" class="overlay-img" />
     <div class="sticker-text">
-      {{'testimonials.dominik' | translate}}
+      {{ 'testimonials.dominik' | translate }}
     </div>
     <div class="sticker-info">
       <span class="name">Dominik Koniorczyk</span>
       <span class="title">Frontend Developer</span>
     </div>
-    <a href="https://www.linkedin.com/in/dominik-koniorczyk-a4056b3a7/" target="_blank" rel="noopener noreferrer" class="sticker-link">
+    <a
+      href="https://www.linkedin.com/in/dominik-koniorczyk-a4056b3a7/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sticker-link"
+    >
       <img src="/img/icons/linkedInIcon.png" alt="" class="link-icon" />
       <span>Profile</span>
     </a>
   </div>
 
-  <div class="sticker-wrapper">
+  <div class="sticker-wrapper" [class.active]="activeSticker === 2" (click)="toggleSticker(2)">
     <img src="/img/03_Stickers/02_Testimonials/color1/B.png" class="main-img" />
     <img src="/img/03_Stickers/02_Testimonials/color1/Hover.png" class="overlay-img" />
     <div class="sticker-text">
-       {{'testimonials.kris' | translate}}
+      {{ 'testimonials.kris' | translate }}
     </div>
     <div class="sticker-info">
       <span class="name">Kristian Kupsch</span>
       <span class="title">Frontend Developer</span>
     </div>
-    <a href="https://www.linkedin.com/in/kristian-kupsch-22b9853b3/" target="_blank" rel="noopener noreferrer" class="sticker-link">
+    <a
+      href="https://www.linkedin.com/in/kristian-kupsch-22b9853b3/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sticker-link"
+    >
       <img src="/img/icons/linkedInIcon.png" alt="" class="link-icon" />
       <span>Profile</span>
     </a>
   </div>
-
-
 </div>

@@ -1,6 +1,8 @@
 .projects-wrapper {
   display: flex;
   gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (max-width: 650px) {

@@ -8,5 +8,9 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './review-cards.scss',
 })
 export class ReviewCards {
+  activeSticker: number | null = null;
 
+  toggleSticker(index: number) {
+    this.activeSticker = this.activeSticker === index ? null : index;
+  }
 }

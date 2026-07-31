@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 })
 export class Buttons {
   openGithub() {
-    window.open('https://github.com/KKrntzk/el-pollo-loco', '_blank');
+    window.open('https://github.com/KKrntzk/coderr_backend', '_blank');
   }
 
-  openLiveTest(){
-    window.open('https://kelly-kornetzki.de/project/elpolloloco', '_blank')
+  openLiveTest() {
+    window.open('http://coderr.kelly-kornetzki.de/', '_blank');
   }
 }
