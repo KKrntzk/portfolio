@@ -27,5 +27,17 @@ export class ProjectExamples {
       desc: 'projects.projectDescriptions.join.desc',
       link: 'project-view-join',
     },
+    {
+      title: 'Coderr',
+      img: '/img/projects/join.png',
+      desc: 'projects.projectDescriptions.join.desc',
+      link: 'project-view-join',
+    },
+    {
+      title: 'Videoflix',
+      img: '/img/projects/join.png',
+      desc: 'projects.projectDescriptions.join.desc',
+      link: 'project-view-join',
+    },
   ];
 }
