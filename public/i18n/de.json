@@ -47,9 +47,11 @@
       "implTitle": "Technische Details",
       "implDetailsJoin": "Im Team entwickelte ich modulare Angular- und TypeScript-Komponenten mit Supabase-Echtzeitdaten. Durch Git und agile Workflows transformierte ich komplexe Anforderungen in eine performante, skalierbare Frontend-Architektur.",
       "implDetailsPollo": "Als Sole Developer für El Pollo Loco war ich für den gesamten Software-Lebenszyklus verantwortlich – von der ersten Logik-Skizze bis zum finalen Refactoring. Mein Ziel war es, ein performantes 2D-Jump-and-Run-Game zu entwickeln, das ausschließlich auf Vanilla-Technologien basiert.",
+      "implDetailsCoderr": "Das Backend wurde vollständig eigenständig mit Django und Django REST Framework entwickelt – inklusive sieben Apps, Token-basierter Authentifizierung und automatisierten Tests mit pytest. Das Frontend wurde von der Developer Akademie bereitgestellt und von mir an das Backend angebunden.",
       "time": "Zeitaufwand:",
       "timeUsedJoin": "5 Wochen",
-      "timeUsedPollo": "3 Wochen"
+      "timeUsedPollo": "3 Wochen",
+      "timeUsedCoderr": "3 Wochen"
     }
   },
   "testimonials": {

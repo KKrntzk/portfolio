@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProjectViewElpolloloco } from './project-view-elpolloloco';
+import { ProjectViewCoderr } from './project-view-coderr';
 
-describe('ProjectViewElpolloloco', () => {
-  let component: ProjectViewElpolloloco;
-  let fixture: ComponentFixture<ProjectViewElpolloloco>;
+describe('ProjectViewCoderr', () => {
+  let component: ProjectViewCoderr;
+  let fixture: ComponentFixture<ProjectViewCoderr>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ProjectViewElpolloloco]
+      imports: [ProjectViewCoderr]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProjectViewElpolloloco);
+    fixture = TestBed.createComponent(ProjectViewCoderr);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

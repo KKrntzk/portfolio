@@ -9,7 +9,7 @@ import { ArrowRight } from './arrow-right/arrow-right';
 @Component({
   selector: 'app-project-view-elpolloloco',
   imports: [Buttons, Description, Title, Preview, ArrowLeft, ArrowRight],
-  templateUrl: './project-view-elpolloloco.html',
-  styleUrl: './project-view-elpolloloco.scss',
+  templateUrl: './project-view-coderr.html',
+  styleUrl: './project-view-coderr.scss',
 })
-export class ProjectViewElpolloloco {}
+export class ProjectViewCoderr {}

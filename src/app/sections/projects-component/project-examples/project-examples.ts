@@ -31,7 +31,7 @@ export class ProjectExamples {
       title: 'Coderr',
       img: '/img/projects/join.png',
       desc: 'projects.projectDescriptions.coderr.desc',
-      link: 'project-view-join',
+      link: 'project-view-coderr',
     },
     {
       title: 'Videoflix',
