@@ -30,7 +30,7 @@ export class ProjectExamples {
     {
       title: 'Coderr',
       img: '/img/projects/join.png',
-      desc: 'projects.projectDescriptions.join.desc',
+      desc: 'projects.projectDescriptions.coderr.desc',
       link: 'project-view-join',
     },
     {

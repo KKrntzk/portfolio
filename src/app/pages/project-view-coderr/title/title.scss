@@ -1,0 +1,26 @@
+h2 {
+  font-size: clamp(32px, 3.33vw, 64px);
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.animation-container::before {
+  content: '';
+  position: absolute;
+  top: 65%;
+  left: -10px;
+  width: 40%;
+  height: 40px;
+  background-image: url('/img/00_Hand-drawn-lines/01_About-me/1.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: left center;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.4s ease-in-out;
+  z-index: 2;
+}
+
+.animation-container:hover::before {
+  clip-path: inset(0 0 0 0);
+}

@@ -37,6 +37,9 @@
       },
       "join": {
         "desc": "Task manager inspired by the Kanban System. Create and organise tasks using drag and drop functions, assign users and categories."
+      },
+      "coderr": {
+        "desc": "Coderr is a Fiverr-style marketplace for developer services, featuring a fully custom-built Django backend. Users can create and browse offers and manage orders, including authentication and a complete REST API."
       }
     },
     "projectPage": {

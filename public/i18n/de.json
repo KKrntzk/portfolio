@@ -37,6 +37,9 @@
       },
       "join": {
         "desc": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer zu und legen Sie Kategorien fest."
+      },
+      "coderr": {
+        "desc": "Coderr ist ein Fiverr-ähnlicher Marktplatz für Entwickler-Dienstleistungen, komplett mit einem selbst entwickelten Django-Backend. Nutzer können Angebote erstellen, durchsuchen und Bestellungen abwickeln – inklusive Authentifizierung und REST-API."
       }
     },
     "projectPage": {
