@@ -12,6 +12,6 @@ export class Buttons {
   }
 
   openLiveTest() {
-    window.open('http://coderr.kelly-kornetzki.de/', '_blank');
+    window.open('https://coderr.kelly-kornetzki.de/', '_blank');
   }
 }

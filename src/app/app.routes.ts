@@ -3,6 +3,7 @@ import { ProjectViewElpolloloco } from './pages/project-view-elpolloloco/project
 import { Home } from './pages/home/home';
 import { ProjectViewJoin } from './pages/project-view-join/project-view-join';
 import { ProjectViewCoderr } from './pages/project-view-coderr/project-view-coderr';
+import { ProjectViewVideoflix } from './pages/project-view-videoflix/project-view-videoflix';
 import { PrivacyPolicy } from './pages/privacy-policy/privacy-policy';
 import { LegalNotice } from './pages/legal-notice/legal-notice';
 
@@ -11,6 +12,7 @@ export const routes: Routes = [
   { path: 'project-view-elpolloloco', component: ProjectViewElpolloloco },
   { path: 'project-view-join', component: ProjectViewJoin },
   { path: 'project-view-coderr', component: ProjectViewCoderr },
+  { path: 'project-view-videoflix', component: ProjectViewVideoflix },
   { path: 'privacy-policy', component: PrivacyPolicy },
   { path: 'legal-notice', component: LegalNotice },
 ];

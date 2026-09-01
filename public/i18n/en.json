@@ -40,6 +40,9 @@
       },
       "coderr": {
         "desc": "Coderr is a Fiverr-style marketplace for developer services, featuring a fully custom-built Django backend. Users can create and browse offers and manage orders, including authentication and a complete REST API."
+      },
+      "videoflix": {
+        "desc": "Netflix-style streaming platform with a custom Django backend. Videos are automatically transcoded into multiple resolutions in the background and delivered via HLS. This project is currently still in development."
       }
     },
     "projectPage": {
@@ -48,6 +51,8 @@
       "implDetailsJoin": "Contributing to the team, I developed modular Angular and TypeScript components with Supabase for real-time data. I utilized Git and Agile workflows to transform complex requirements into a performant, scalable frontend architecture.",
       "implDetailsPollo": "As the sole developer for El Pollo Loco, I was responsible for the entire software development lifecycle—from the initial logic sketches to the final refactoring. My goal was to build a high-performance 2D jump-and-run game based exclusively on vanilla technologies.",
       "implDetailsCoderr": "The backend was fully self-developed using Django and Django REST Framework — including seven apps, token-based authentication, and automated tests with pytest. The frontend was provided by the Developer Akademie and connected to the backend by me.",
+      "implDetailsVideoflix": "The backend was fully self-developed using Django and Django REST Framework, running on PostgreSQL, Redis and Docker. After upload, videos are transcoded into multiple resolutions with FFmpeg in background tasks and streamed adaptively via HLS. Authentication uses JWT stored in HttpOnly cookies, complemented by email verification and password reset. The frontend was provided by the Developer Akademie and connected to the backend by me.",
+      "timeUsedVideoflix": "3 weeks",
       "time": "Duration:",
       "timeUsedJoin": "5 weeks",
       "timeUsedPollo": "3 weeks",

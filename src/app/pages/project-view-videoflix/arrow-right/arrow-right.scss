@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+
+h3 {
+  color: #f8f9fa;
+
+  &:hover {
+    color: #f7c518;
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 50px;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    padding-top: 0;
+  }
+}

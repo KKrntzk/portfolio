@@ -11,7 +11,7 @@ export class Buttons {
     window.open('https://github.com/KKrntzk/join', '_blank');
   }
 
-  openLiveTest(){
-    window.open('https://kelly-kornetzki.de/project/join/', '_blank')
+  openLiveTest() {
+    window.open('https://join.kelly-kornetzki.de/', '_blank');
   }
 }

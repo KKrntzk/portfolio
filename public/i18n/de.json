@@ -40,6 +40,9 @@
       },
       "coderr": {
         "desc": "Coderr ist ein Fiverr-ähnlicher Marktplatz für Entwickler-Dienstleistungen, komplett mit einem selbst entwickelten Django-Backend. Nutzer können Angebote erstellen, durchsuchen und Bestellungen abwickeln – inklusive Authentifizierung und REST-API."
+      },
+      "videoflix": {
+        "desc": "Netflix-ähnliche Streaming-Plattform mit selbst entwickeltem Django-Backend. Videos werden im Hintergrund automatisch in mehrere Auflösungen konvertiert und per HLS ausgeliefert. Dieses Projekt befindet sich aktuell noch in Entwicklung."
       }
     },
     "projectPage": {
@@ -48,6 +51,8 @@
       "implDetailsJoin": "Im Team entwickelte ich modulare Angular- und TypeScript-Komponenten mit Supabase-Echtzeitdaten. Durch Git und agile Workflows transformierte ich komplexe Anforderungen in eine performante, skalierbare Frontend-Architektur.",
       "implDetailsPollo": "Als Sole Developer für El Pollo Loco war ich für den gesamten Software-Lebenszyklus verantwortlich – von der ersten Logik-Skizze bis zum finalen Refactoring. Mein Ziel war es, ein performantes 2D-Jump-and-Run-Game zu entwickeln, das ausschließlich auf Vanilla-Technologien basiert.",
       "implDetailsCoderr": "Das Backend wurde vollständig eigenständig mit Django und Django REST Framework entwickelt – inklusive sieben Apps, Token-basierter Authentifizierung und automatisierten Tests mit pytest. Das Frontend wurde von der Developer Akademie bereitgestellt und von mir an das Backend angebunden.",
+      "implDetailsVideoflix": "Das Backend entstand vollständig eigenständig mit Django und Django REST Framework, aufgesetzt auf PostgreSQL, Redis und Docker. Videos werden nach dem Upload per FFmpeg im Hintergrund in mehrere Auflösungen konvertiert und adaptiv per HLS gestreamt. Authentifizierung läuft über JWT in HttpOnly-Cookies, ergänzt um E-Mail-Verifizierung und Passwort-Reset. Das Frontend wurde von der Developer Akademie bereitgestellt und von mir an das Backend angebunden.",
+      "timeUsedVideoflix": "3 Wochen",
       "time": "Zeitaufwand:",
       "timeUsedJoin": "5 Wochen",
       "timeUsedPollo": "3 Wochen",

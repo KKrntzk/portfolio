@@ -1,0 +1,45 @@
+h3 {
+  font-size: clamp(20px, 1.25vw, 24px);
+  color: #ffffff;
+  mix-blend-mode: difference;
+  padding: 20px 0px;
+  font-weight: bold;
+}
+
+p,
+span {
+  font-size: clamp(14px, 1.1vw, 18px);
+  line-height: 1.5;
+  color: #ffffff;
+  mix-blend-mode: difference;
+}
+
+img {
+  width: 40px;
+}
+
+.skill-tree {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.skill-item img {
+  width: 40px;
+  height: auto;
+}
+
+@media (max-width: 1250px) {
+  .skill-tree {
+    max-width: 400px;
+    justify-content: flex-start;
+  }
+}

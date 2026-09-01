@@ -35,9 +35,9 @@ export class ProjectExamples {
     },
     {
       title: 'Videoflix',
-      img: '/img/projects/join.png',
-      desc: 'projects.projectDescriptions.join.desc',
-      link: 'project-view-join',
+      img: '/img/projects/videoflix.png',
+      desc: 'projects.projectDescriptions.videoflix.desc',
+      link: 'project-view-videoflix',
     },
   ];
 }
